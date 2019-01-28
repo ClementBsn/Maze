@@ -1,0 +1,5 @@
+To play the game launch src/MainPlay.py
+
+To start the QLearning launch src/MainQLearning.py
+
+To start the value iteration and policy iteration launch MainPolicy.py

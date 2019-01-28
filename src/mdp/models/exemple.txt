@@ -1,0 +1,3651 @@
+S: (0 0 0 0)
+S: (0 0 0 1)
+S: (0 0 1 0)
+S: (0 0 1 1)
+S: (0 1 0 0)
+S: (0 1 0 1)
+S: (0 1 1 0)
+S: (0 1 1 1)
+// action: DOWN, new pos: (8), cell type: #
+T: (0 k t s), DOWN, (63 k t s) = 1
+R: (0 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (0 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (1), cell type: E
+T: (0 k t s), RIGHT, (1 k t s) = 1
+R: (0 k t 0), RIGHT, (1 k t 0), -10) = 0.7
+R: (0 k t 0), RIGHT, (1 k t 0), -1000) = 0.3
+R: (0 k t 1), RIGHT, (1 k t 1), 0) = 1
+S: (1 0 0 0)
+S: (1 0 0 1)
+S: (1 0 1 0)
+S: (1 0 1 1)
+S: (1 1 0 0)
+S: (1 1 0 1)
+S: (1 1 1 0)
+S: (1 1 1 1)
+// action: DOWN, new pos: (9), cell type: R
+T: (1 k t s), DOWN, (63 k t s) = 0.3
+R: (1 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (1 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (1 k t s), DOWN, (9 k t s) = 0.7
+R: (1 k t s), DOWN, (9 k t s), -1000) = 0.14285714285714288
+R: (1 k t s), DOWN, (9 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (0), cell type: T
+T: (1 k t s), LEFT, (0 k t s) = 1
+R: (1 0 t s), LEFT, (0 0 t s), 0) = 1
+R: (1 1 t s), LEFT, (0 1 t s), 100) = 1
+// action: RIGHT, new pos: (2), cell type: _
+T: (1 k t s), RIGHT, (2 k t s) = 1
+R: (1 k t s), RIGHT, (2 k t s), 0) = 1
+S: (2 0 0 0)
+S: (2 0 0 1)
+S: (2 0 1 0)
+S: (2 0 1 1)
+S: (2 1 0 0)
+S: (2 1 0 1)
+S: (2 1 1 0)
+S: (2 1 1 1)
+// action: DOWN, new pos: (10), cell type: #
+T: (2 k t s), DOWN, (63 k t s) = 1
+R: (2 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (2 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (1), cell type: E
+T: (2 k t s), LEFT, (1 k t s) = 1
+R: (2 k t 0), LEFT, (1 k t 0), -10) = 0.7
+R: (2 k t 0), LEFT, (1 k t 0), -1000) = 0.3
+R: (2 k t 1), LEFT, (1 k t 1), 0) = 1
+// action: RIGHT, new pos: (3), cell type: _
+T: (2 k t s), RIGHT, (3 k t s) = 1
+R: (2 k t s), RIGHT, (3 k t s), 0) = 1
+S: (3 0 0 0)
+S: (3 0 0 1)
+S: (3 0 1 0)
+S: (3 0 1 1)
+S: (3 1 0 0)
+S: (3 1 0 1)
+S: (3 1 1 0)
+S: (3 1 1 1)
+// action: DOWN, new pos: (11), cell type: #
+T: (3 k t s), DOWN, (63 k t s) = 1
+R: (3 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (3 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (2), cell type: _
+T: (3 k t s), LEFT, (2 k t s) = 1
+R: (3 k t s), LEFT, (2 k t s), 0) = 1
+// action: RIGHT, new pos: (4), cell type: R
+T: (3 k t s), RIGHT, (63 k t s) = 0.3
+R: (3 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (3 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (3 k t s), RIGHT, (4 k t s) = 0.7
+R: (3 k t s), RIGHT, (4 k t s), -1000) = 0.14285714285714288
+R: (3 k t s), RIGHT, (4 k t s), -10) = 0.8571428571428572
+S: (4 0 0 0)
+S: (4 0 0 1)
+S: (4 0 1 0)
+S: (4 0 1 1)
+S: (4 1 0 0)
+S: (4 1 0 1)
+S: (4 1 1 0)
+S: (4 1 1 1)
+// action: DOWN, new pos: (12), cell type: -
+T: (4 k t s), DOWN, (63 k t s) = 0.0375
+R: (4 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (4 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (4 k t s), DOWN, (4 k t s) = 0.0875
+R: (4 k t s), DOWN, (4 k t s), -1000) = 0.14285714285714288
+R: (4 k t s), DOWN, (4 k t s), -10) = 0.8571428571428572
+T: (4 k t s), DOWN, (3 k t s) = 0.125
+R: (4 k t s), DOWN, (3 k t s), 0) = 1
+T: (4 k t s), DOWN, (63 k t s) = 0.125
+R: (4 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (4 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (4 k t s), DOWN, (20 k t s) = 0.125
+R: (4 k t s), DOWN, (20 k t s), 0) = 1
+T: (4 k t s), DOWN, (19 k t s) = 0.125
+R: (4 k t s), DOWN, (19 k t s), 0) = 1
+T: (4 k t s), DOWN, (21 k t s) = 0.125
+R: (4 k t s), DOWN, (21 k t s), 0) = 1
+T: (4 k t s), DOWN, (63 k t s) = 0.125
+R: (4 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (4 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (4 k t s), DOWN, (13 k t s) = 0.125
+R: (4 k t s), DOWN, (13 k t s), -1000) = 1
+// action: LEFT, new pos: (3), cell type: _
+T: (4 k t s), LEFT, (3 k t s) = 1
+R: (4 k t s), LEFT, (3 k t s), 0) = 1
+// action: RIGHT, new pos: (5), cell type: #
+T: (4 k t s), RIGHT, (63 k t s) = 1
+R: (4 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (4 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (5 0 0 0)
+S: (5 0 0 1)
+S: (5 0 1 0)
+S: (5 0 1 1)
+S: (5 1 0 0)
+S: (5 1 0 1)
+S: (5 1 1 0)
+S: (5 1 1 1)
+// action: DOWN, new pos: (13), cell type: C
+T: (5 k t s), DOWN, (13 k t s) = 1
+R: (5 k t s), DOWN, (13 k t s), -1000) = 1
+// action: LEFT, new pos: (4), cell type: R
+T: (5 k t s), LEFT, (63 k t s) = 0.3
+R: (5 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (5 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (5 k t s), LEFT, (4 k t s) = 0.7
+R: (5 k t s), LEFT, (4 k t s), -1000) = 0.14285714285714288
+R: (5 k t s), LEFT, (4 k t s), -10) = 0.8571428571428572
+// action: RIGHT, new pos: (6), cell type: C
+T: (5 k t s), RIGHT, (6 k t s) = 1
+R: (5 k t s), RIGHT, (6 k t s), -1000) = 1
+S: (6 0 0 0)
+S: (6 0 0 1)
+S: (6 0 1 0)
+S: (6 0 1 1)
+S: (6 1 0 0)
+S: (6 1 0 1)
+S: (6 1 1 0)
+S: (6 1 1 1)
+// action: DOWN, new pos: (14), cell type: -
+T: (6 k t s), DOWN, (6 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (6 k t s), -1000) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (7 k t s) = 0.05263157894736842
+R: (6 0 t s), DOWN, (7 1 t s), 50) = 1
+R: (6 1 t s), DOWN, (7 1 t s), 0) = 1
+T: (6 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (21 k t s), 0) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (23 k t s) = 0.03684210526315789
+R: (6 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (6 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (6 k t s), DOWN, (13 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (13 k t s), -1000) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (15 k t s) = 0.03684210526315789
+R: (6 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (6 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (6 k t s), DOWN, (13 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (13 k t s), -1000) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (15 k t s) = 0.03684210526315789
+R: (6 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (6 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (6 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (30 k t s) = 0.03684210526315789
+R: (6 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (6 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+T: (6 k t s), DOWN, (31 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (31 k t s), 0) = 1
+T: (6 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (21 k t s), 0) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (23 k t s) = 0.03684210526315789
+R: (6 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (6 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (6 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (21 k t s), 0) = 1
+T: (6 k t s), DOWN, (20 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (20 k t s), 0) = 1
+T: (6 k t s), DOWN, (37 k t s) = 0.05263157894736842
+R: (6 k t s), DOWN, (37 k t s), 0) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (6 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (6 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (6 k t s), DOWN, (30 k t s) = 0.03684210526315789
+R: (6 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (6 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (5), cell type: #
+T: (6 k t s), LEFT, (63 k t s) = 1
+R: (6 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (6 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (7), cell type: K
+T: (6 k t s), RIGHT, (7 k t s) = 1
+R: (6 0 t s), RIGHT, (7 1 t s), 50) = 1
+R: (6 1 t s), RIGHT, (7 1 t s), 0) = 1
+S: (7 0 0 0)
+S: (7 0 0 1)
+S: (7 0 1 0)
+S: (7 0 1 1)
+S: (7 1 0 0)
+S: (7 1 0 1)
+S: (7 1 1 0)
+S: (7 1 1 1)
+// action: DOWN, new pos: (15), cell type: R
+T: (7 k t s), DOWN, (63 k t s) = 0.3
+R: (7 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (7 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (7 k t s), DOWN, (15 k t s) = 0.7
+R: (7 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (7 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (6), cell type: C
+T: (7 k t s), LEFT, (6 k t s) = 1
+R: (7 k t s), LEFT, (6 k t s), -1000) = 1
+S: (8 0 0 0)
+S: (8 0 0 1)
+S: (8 0 1 0)
+S: (8 0 1 1)
+S: (8 1 0 0)
+S: (8 1 0 1)
+S: (8 1 1 0)
+S: (8 1 1 1)
+// action: UP, new pos: (0), cell type: T
+T: (8 k t s), UP, (0 k t s) = 1
+R: (8 0 t s), UP, (0 0 t s), 0) = 1
+R: (8 1 t s), UP, (0 1 t s), 100) = 1
+// action: DOWN, new pos: (16), cell type: -
+T: (8 k t s), DOWN, (63 k t s) = 0.25
+R: (8 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (8 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (8 k t s), DOWN, (63 k t s) = 0.075
+R: (8 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (8 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (8 k t s), DOWN, (9 k t s) = 0.175
+R: (8 k t s), DOWN, (9 k t s), -1000) = 0.14285714285714288
+R: (8 k t s), DOWN, (9 k t s), -10) = 0.8571428571428572
+T: (8 k t s), DOWN, (63 k t s) = 0.25
+R: (8 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (8 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (8 k t s), DOWN, (17 k t s) = 0.25
+R: (8 k t s), DOWN, (17 k t s), 0) = 1
+// action: RIGHT, new pos: (9), cell type: R
+T: (8 k t s), RIGHT, (63 k t s) = 0.3
+R: (8 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (8 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (8 k t s), RIGHT, (9 k t s) = 0.7
+R: (8 k t s), RIGHT, (9 k t s), -1000) = 0.14285714285714288
+R: (8 k t s), RIGHT, (9 k t s), -10) = 0.8571428571428572
+S: (9 0 0 0)
+S: (9 0 0 1)
+S: (9 0 1 0)
+S: (9 0 1 1)
+S: (9 1 0 0)
+S: (9 1 0 1)
+S: (9 1 1 0)
+S: (9 1 1 1)
+// action: UP, new pos: (1), cell type: E
+T: (9 k t s), UP, (1 k t s) = 1
+R: (9 k t 0), UP, (1 k t 0), -10) = 0.7
+R: (9 k t 0), UP, (1 k t 0), -1000) = 0.3
+R: (9 k t 1), UP, (1 k t 1), 0) = 1
+// action: DOWN, new pos: (17), cell type: _
+T: (9 k t s), DOWN, (17 k t s) = 1
+R: (9 k t s), DOWN, (17 k t s), 0) = 1
+// action: LEFT, new pos: (8), cell type: #
+T: (9 k t s), LEFT, (63 k t s) = 1
+R: (9 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (9 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (10), cell type: #
+T: (9 k t s), RIGHT, (63 k t s) = 1
+R: (9 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (9 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (10 0 0 0)
+S: (10 0 0 1)
+S: (10 0 1 0)
+S: (10 0 1 1)
+S: (10 1 0 0)
+S: (10 1 0 1)
+S: (10 1 1 0)
+S: (10 1 1 1)
+// action: UP, new pos: (2), cell type: _
+T: (10 k t s), UP, (2 k t s) = 1
+R: (10 k t s), UP, (2 k t s), 0) = 1
+// action: DOWN, new pos: (18), cell type: E
+T: (10 k t s), DOWN, (18 k t s) = 1
+R: (10 k t 0), DOWN, (18 k t 0), -10) = 0.7
+R: (10 k t 0), DOWN, (18 k t 0), -1000) = 0.3
+R: (10 k t 1), DOWN, (18 k t 1), 0) = 1
+// action: LEFT, new pos: (9), cell type: R
+T: (10 k t s), LEFT, (63 k t s) = 0.3
+R: (10 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (10 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (10 k t s), LEFT, (9 k t s) = 0.7
+R: (10 k t s), LEFT, (9 k t s), -1000) = 0.14285714285714288
+R: (10 k t s), LEFT, (9 k t s), -10) = 0.8571428571428572
+// action: RIGHT, new pos: (11), cell type: #
+T: (10 k t s), RIGHT, (63 k t s) = 1
+R: (10 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (10 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (11 0 0 0)
+S: (11 0 0 1)
+S: (11 0 1 0)
+S: (11 0 1 1)
+S: (11 1 0 0)
+S: (11 1 0 1)
+S: (11 1 1 0)
+S: (11 1 1 1)
+// action: UP, new pos: (3), cell type: _
+T: (11 k t s), UP, (3 k t s) = 1
+R: (11 k t s), UP, (3 k t s), 0) = 1
+// action: DOWN, new pos: (19), cell type: _
+T: (11 k t s), DOWN, (19 k t s) = 1
+R: (11 k t s), DOWN, (19 k t s), 0) = 1
+// action: LEFT, new pos: (10), cell type: #
+T: (11 k t s), LEFT, (63 k t s) = 1
+R: (11 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (11 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (12), cell type: -
+T: (11 k t s), RIGHT, (63 k t s) = 0.0375
+R: (11 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (11 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (11 k t s), RIGHT, (4 k t s) = 0.0875
+R: (11 k t s), RIGHT, (4 k t s), -1000) = 0.14285714285714288
+R: (11 k t s), RIGHT, (4 k t s), -10) = 0.8571428571428572
+T: (11 k t s), RIGHT, (3 k t s) = 0.125
+R: (11 k t s), RIGHT, (3 k t s), 0) = 1
+T: (11 k t s), RIGHT, (63 k t s) = 0.125
+R: (11 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (11 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (11 k t s), RIGHT, (20 k t s) = 0.125
+R: (11 k t s), RIGHT, (20 k t s), 0) = 1
+T: (11 k t s), RIGHT, (19 k t s) = 0.125
+R: (11 k t s), RIGHT, (19 k t s), 0) = 1
+T: (11 k t s), RIGHT, (21 k t s) = 0.125
+R: (11 k t s), RIGHT, (21 k t s), 0) = 1
+T: (11 k t s), RIGHT, (63 k t s) = 0.125
+R: (11 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (11 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (11 k t s), RIGHT, (13 k t s) = 0.125
+R: (11 k t s), RIGHT, (13 k t s), -1000) = 1
+S: (12 0 0 0)
+S: (12 0 0 1)
+S: (12 0 1 0)
+S: (12 0 1 1)
+S: (12 1 0 0)
+S: (12 1 0 1)
+S: (12 1 1 0)
+S: (12 1 1 1)
+// action: UP, new pos: (4), cell type: R
+T: (12 k t s), UP, (63 k t s) = 0.3
+R: (12 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (12 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (12 k t s), UP, (4 k t s) = 0.7
+R: (12 k t s), UP, (4 k t s), -1000) = 0.14285714285714288
+R: (12 k t s), UP, (4 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (20), cell type: _
+T: (12 k t s), DOWN, (20 k t s) = 1
+R: (12 k t s), DOWN, (20 k t s), 0) = 1
+// action: LEFT, new pos: (11), cell type: #
+T: (12 k t s), LEFT, (63 k t s) = 1
+R: (12 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (12 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (13), cell type: C
+T: (12 k t s), RIGHT, (13 k t s) = 1
+R: (12 k t s), RIGHT, (13 k t s), -1000) = 1
+S: (13 0 0 0)
+S: (13 0 0 1)
+S: (13 0 1 0)
+S: (13 0 1 1)
+S: (13 1 0 0)
+S: (13 1 0 1)
+S: (13 1 1 0)
+S: (13 1 1 1)
+// action: UP, new pos: (5), cell type: #
+T: (13 k t s), UP, (63 k t s) = 1
+R: (13 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (13 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (21), cell type: _
+T: (13 k t s), DOWN, (21 k t s) = 1
+R: (13 k t s), DOWN, (21 k t s), 0) = 1
+// action: LEFT, new pos: (12), cell type: -
+T: (13 k t s), LEFT, (63 k t s) = 0.0375
+R: (13 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (13 k t s), LEFT, (4 k t s) = 0.0875
+R: (13 k t s), LEFT, (4 k t s), -1000) = 0.14285714285714288
+R: (13 k t s), LEFT, (4 k t s), -10) = 0.8571428571428572
+T: (13 k t s), LEFT, (3 k t s) = 0.125
+R: (13 k t s), LEFT, (3 k t s), 0) = 1
+T: (13 k t s), LEFT, (63 k t s) = 0.125
+R: (13 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (13 k t s), LEFT, (20 k t s) = 0.125
+R: (13 k t s), LEFT, (20 k t s), 0) = 1
+T: (13 k t s), LEFT, (19 k t s) = 0.125
+R: (13 k t s), LEFT, (19 k t s), 0) = 1
+T: (13 k t s), LEFT, (21 k t s) = 0.125
+R: (13 k t s), LEFT, (21 k t s), 0) = 1
+T: (13 k t s), LEFT, (63 k t s) = 0.125
+R: (13 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (13 k t s), LEFT, (13 k t s) = 0.125
+R: (13 k t s), LEFT, (13 k t s), -1000) = 1
+// action: RIGHT, new pos: (14), cell type: -
+T: (13 k t s), RIGHT, (6 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (6 k t s), -1000) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (7 k t s) = 0.05263157894736842
+R: (13 0 t s), RIGHT, (7 1 t s), 50) = 1
+R: (13 1 t s), RIGHT, (7 1 t s), 0) = 1
+T: (13 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (21 k t s), 0) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (23 k t s) = 0.03684210526315789
+R: (13 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (13 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (13 k t s), RIGHT, (13 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (15 k t s) = 0.03684210526315789
+R: (13 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (13 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+T: (13 k t s), RIGHT, (13 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (15 k t s) = 0.03684210526315789
+R: (13 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (13 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+T: (13 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (30 k t s) = 0.03684210526315789
+R: (13 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (13 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+T: (13 k t s), RIGHT, (31 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (31 k t s), 0) = 1
+T: (13 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (21 k t s), 0) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (23 k t s) = 0.03684210526315789
+R: (13 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (13 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (13 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (21 k t s), 0) = 1
+T: (13 k t s), RIGHT, (20 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (20 k t s), 0) = 1
+T: (13 k t s), RIGHT, (37 k t s) = 0.05263157894736842
+R: (13 k t s), RIGHT, (37 k t s), 0) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (13 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (13 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (13 k t s), RIGHT, (30 k t s) = 0.03684210526315789
+R: (13 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (13 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+S: (14 0 0 0)
+S: (14 0 0 1)
+S: (14 0 1 0)
+S: (14 0 1 1)
+S: (14 1 0 0)
+S: (14 1 0 1)
+S: (14 1 1 0)
+S: (14 1 1 1)
+// action: UP, new pos: (6), cell type: C
+T: (14 k t s), UP, (6 k t s) = 1
+R: (14 k t s), UP, (6 k t s), -1000) = 1
+// action: DOWN, new pos: (22), cell type: -
+T: (14 k t s), DOWN, (13 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (13 k t s), -1000) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (15 k t s) = 0.03684210526315789
+R: (14 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (14 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (14 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (30 k t s) = 0.03684210526315789
+R: (14 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (14 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+T: (14 k t s), DOWN, (31 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (31 k t s), 0) = 1
+T: (14 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (21 k t s), 0) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (23 k t s) = 0.03684210526315789
+R: (14 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (14 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (14 k t s), DOWN, (6 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (6 k t s), -1000) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (7 k t s) = 0.05263157894736842
+R: (14 0 t s), DOWN, (7 1 t s), 50) = 1
+R: (14 1 t s), DOWN, (7 1 t s), 0) = 1
+T: (14 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (21 k t s), 0) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (23 k t s) = 0.03684210526315789
+R: (14 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (14 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (14 k t s), DOWN, (13 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (13 k t s), -1000) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (15 k t s) = 0.03684210526315789
+R: (14 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (14 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (14 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (21 k t s), 0) = 1
+T: (14 k t s), DOWN, (20 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (20 k t s), 0) = 1
+T: (14 k t s), DOWN, (37 k t s) = 0.05263157894736842
+R: (14 k t s), DOWN, (37 k t s), 0) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (14 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (14 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (14 k t s), DOWN, (30 k t s) = 0.03684210526315789
+R: (14 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (14 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (13), cell type: C
+T: (14 k t s), LEFT, (13 k t s) = 1
+R: (14 k t s), LEFT, (13 k t s), -1000) = 1
+// action: RIGHT, new pos: (15), cell type: R
+T: (14 k t s), RIGHT, (63 k t s) = 0.3
+R: (14 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (14 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (14 k t s), RIGHT, (15 k t s) = 0.7
+R: (14 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (14 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+S: (15 0 0 0)
+S: (15 0 0 1)
+S: (15 0 1 0)
+S: (15 0 1 1)
+S: (15 1 0 0)
+S: (15 1 0 1)
+S: (15 1 1 0)
+S: (15 1 1 1)
+// action: UP, new pos: (7), cell type: K
+T: (15 k t s), UP, (7 k t s) = 1
+R: (15 0 t s), UP, (7 1 t s), 50) = 1
+R: (15 1 t s), UP, (7 1 t s), 0) = 1
+// action: DOWN, new pos: (23), cell type: R
+T: (15 k t s), DOWN, (63 k t s) = 0.3
+R: (15 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (15 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (15 k t s), DOWN, (23 k t s) = 0.7
+R: (15 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (15 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (14), cell type: -
+T: (15 k t s), LEFT, (6 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (6 k t s), -1000) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (7 k t s) = 0.05263157894736842
+R: (15 0 t s), LEFT, (7 1 t s), 50) = 1
+R: (15 1 t s), LEFT, (7 1 t s), 0) = 1
+T: (15 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (21 k t s), 0) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (23 k t s) = 0.03684210526315789
+R: (15 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (15 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (15 k t s), LEFT, (13 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (13 k t s), -1000) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (15 k t s) = 0.03684210526315789
+R: (15 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (15 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+T: (15 k t s), LEFT, (13 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (13 k t s), -1000) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (15 k t s) = 0.03684210526315789
+R: (15 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (15 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+T: (15 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (30 k t s) = 0.03684210526315789
+R: (15 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (15 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+T: (15 k t s), LEFT, (31 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (31 k t s), 0) = 1
+T: (15 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (21 k t s), 0) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (23 k t s) = 0.03684210526315789
+R: (15 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (15 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (15 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (21 k t s), 0) = 1
+T: (15 k t s), LEFT, (20 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (20 k t s), 0) = 1
+T: (15 k t s), LEFT, (37 k t s) = 0.05263157894736842
+R: (15 k t s), LEFT, (37 k t s), 0) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (15 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (15 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (15 k t s), LEFT, (30 k t s) = 0.03684210526315789
+R: (15 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (15 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+S: (16 0 0 0)
+S: (16 0 0 1)
+S: (16 0 1 0)
+S: (16 0 1 1)
+S: (16 1 0 0)
+S: (16 1 0 1)
+S: (16 1 1 0)
+S: (16 1 1 1)
+// action: UP, new pos: (8), cell type: #
+T: (16 k t s), UP, (63 k t s) = 1
+R: (16 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (16 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (24), cell type: P
+T: (16 k t s), DOWN, (0 k t s) = 0.02564102564102564
+R: (16 0 t s), DOWN, (0 0 t s), 0) = 1
+R: (16 1 t s), DOWN, (0 1 t s), 100) = 1
+T: (16 k t s), DOWN, (1 k t s) = 0.02564102564102564
+R: (16 k t 0), DOWN, (1 k t 0), -10) = 0.7
+R: (16 k t 0), DOWN, (1 k t 0), -1000) = 0.3
+R: (16 k t 1), DOWN, (1 k t 1), 0) = 1
+T: (16 k t s), DOWN, (2 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (2 k t s), 0) = 1
+T: (16 k t s), DOWN, (3 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (3 k t s), 0) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (16 k t s), DOWN, (4 k t s) = 0.017948717948717947
+R: (16 k t s), DOWN, (4 k t s), -1000) = 0.14285714285714288
+R: (16 k t s), DOWN, (4 k t s), -10) = 0.8571428571428572
+T: (16 k t s), DOWN, (6 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (6 k t s), -1000) = 1
+T: (16 k t s), DOWN, (7 k t s) = 0.02564102564102564
+R: (16 0 t s), DOWN, (7 1 t s), 50) = 1
+R: (16 1 t s), DOWN, (7 1 t s), 0) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (16 k t s), DOWN, (9 k t s) = 0.017948717948717947
+R: (16 k t s), DOWN, (9 k t s), -1000) = 0.14285714285714288
+R: (16 k t s), DOWN, (9 k t s), -10) = 0.8571428571428572
+T: (16 k t s), DOWN, (13 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (13 k t s), -1000) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (16 k t s), DOWN, (15 k t s) = 0.017948717948717947
+R: (16 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (16 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (16 k t s), DOWN, (17 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (17 k t s), 0) = 1
+T: (16 k t s), DOWN, (18 k t s) = 0.02564102564102564
+R: (16 k t 0), DOWN, (18 k t 0), -10) = 0.7
+R: (16 k t 0), DOWN, (18 k t 0), -1000) = 0.3
+R: (16 k t 1), DOWN, (18 k t 1), 0) = 1
+T: (16 k t s), DOWN, (19 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (19 k t s), 0) = 1
+T: (16 k t s), DOWN, (20 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (20 k t s), 0) = 1
+T: (16 k t s), DOWN, (21 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (21 k t s), 0) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (16 k t s), DOWN, (23 k t s) = 0.017948717948717947
+R: (16 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (16 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (16 k t s), DOWN, (26 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (26 k t s), 0) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (16 k t s), DOWN, (30 k t s) = 0.017948717948717947
+R: (16 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (16 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+T: (16 k t s), DOWN, (31 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (31 k t s), 0) = 1
+T: (16 k t s), DOWN, (32 k t s) = 0.02564102564102564
+R: (16 k t 0), DOWN, (32 k t 1), 25) = 1
+R: (16 k t 1), DOWN, (32 k t 1), 0) = 1
+T: (16 k t s), DOWN, (35 k t s) = 0.02564102564102564
+R: (16 k t 0), DOWN, (35 k t 0), -10) = 0.7
+R: (16 k t 0), DOWN, (35 k t 0), -1000) = 0.3
+R: (16 k t 1), DOWN, (35 k t 1), 0) = 1
+T: (16 k t s), DOWN, (37 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (37 k t s), 0) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (16 k t s), DOWN, (41 k t s) = 0.017948717948717947
+R: (16 k t s), DOWN, (41 k t s), -1000) = 0.14285714285714288
+R: (16 k t s), DOWN, (41 k t s), -10) = 0.8571428571428572
+T: (16 k t s), DOWN, (42 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (42 k t s), 0) = 1
+T: (16 k t s), DOWN, (43 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (43 k t s), 0) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (16 k t s), DOWN, (44 k t s) = 0.017948717948717947
+R: (16 k t s), DOWN, (44 k t s), -1000) = 0.14285714285714288
+R: (16 k t s), DOWN, (44 k t s), -10) = 0.8571428571428572
+T: (16 k t s), DOWN, (46 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (46 k t s), -1000) = 1
+T: (16 k t s), DOWN, (48 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (48 k t s), 0) = 1
+T: (16 k t s), DOWN, (51 k t s) = 0.02564102564102564
+R: (16 k t 0), DOWN, (51 k t 0), -10) = 0.7
+R: (16 k t 0), DOWN, (51 k t 0), -1000) = 0.3
+R: (16 k t 1), DOWN, (51 k t 1), 0) = 1
+T: (16 k t s), DOWN, (53 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (53 k t s), 0) = 1
+T: (16 k t s), DOWN, (55 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (55 k t s), 0) = 1
+T: (16 k t s), DOWN, (56 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (56 k t s), 0) = 1
+T: (16 k t s), DOWN, (57 k t s) = 0.02564102564102564
+R: (16 k t 0), DOWN, (57 k t 0), -10) = 0.7
+R: (16 k t 0), DOWN, (57 k t 0), -1000) = 0.3
+R: (16 k t 1), DOWN, (57 k t 1), 0) = 1
+T: (16 k t s), DOWN, (58 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (58 k t s), 0) = 1
+T: (16 k t s), DOWN, (59 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (59 k t s), 0) = 1
+T: (16 k t s), DOWN, (60 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (60 k t s), 0) = 1
+T: (16 k t s), DOWN, (61 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (61 k t s), 0) = 1
+T: (16 k t s), DOWN, (62 k t s) = 0.02564102564102564
+R: (16 k t s), DOWN, (62 k t s), 0) = 1
+T: (16 k t s), DOWN, (63 k t s) = 0.02564102564102564
+R: (16 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (16 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (17), cell type: _
+T: (16 k t s), RIGHT, (17 k t s) = 1
+R: (16 k t s), RIGHT, (17 k t s), 0) = 1
+S: (17 0 0 0)
+S: (17 0 0 1)
+S: (17 0 1 0)
+S: (17 0 1 1)
+S: (17 1 0 0)
+S: (17 1 0 1)
+S: (17 1 1 0)
+S: (17 1 1 1)
+// action: UP, new pos: (9), cell type: R
+T: (17 k t s), UP, (63 k t s) = 0.3
+R: (17 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (17 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (17 k t s), UP, (9 k t s) = 0.7
+R: (17 k t s), UP, (9 k t s), -1000) = 0.14285714285714288
+R: (17 k t s), UP, (9 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (25), cell type: #
+T: (17 k t s), DOWN, (63 k t s) = 1
+R: (17 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (17 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (16), cell type: -
+T: (17 k t s), LEFT, (63 k t s) = 0.25
+R: (17 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (17 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (17 k t s), LEFT, (63 k t s) = 0.075
+R: (17 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (17 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (17 k t s), LEFT, (9 k t s) = 0.175
+R: (17 k t s), LEFT, (9 k t s), -1000) = 0.14285714285714288
+R: (17 k t s), LEFT, (9 k t s), -10) = 0.8571428571428572
+T: (17 k t s), LEFT, (63 k t s) = 0.25
+R: (17 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (17 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (17 k t s), LEFT, (17 k t s) = 0.25
+R: (17 k t s), LEFT, (17 k t s), 0) = 1
+// action: RIGHT, new pos: (18), cell type: E
+T: (17 k t s), RIGHT, (18 k t s) = 1
+R: (17 k t 0), RIGHT, (18 k t 0), -10) = 0.7
+R: (17 k t 0), RIGHT, (18 k t 0), -1000) = 0.3
+R: (17 k t 1), RIGHT, (18 k t 1), 0) = 1
+S: (18 0 0 0)
+S: (18 0 0 1)
+S: (18 0 1 0)
+S: (18 0 1 1)
+S: (18 1 0 0)
+S: (18 1 0 1)
+S: (18 1 1 0)
+S: (18 1 1 1)
+// action: UP, new pos: (10), cell type: #
+T: (18 k t s), UP, (63 k t s) = 1
+R: (18 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (18 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (26), cell type: _
+T: (18 k t s), DOWN, (26 k t s) = 1
+R: (18 k t s), DOWN, (26 k t s), 0) = 1
+// action: LEFT, new pos: (17), cell type: _
+T: (18 k t s), LEFT, (17 k t s) = 1
+R: (18 k t s), LEFT, (17 k t s), 0) = 1
+// action: RIGHT, new pos: (19), cell type: _
+T: (18 k t s), RIGHT, (19 k t s) = 1
+R: (18 k t s), RIGHT, (19 k t s), 0) = 1
+S: (19 0 0 0)
+S: (19 0 0 1)
+S: (19 0 1 0)
+S: (19 0 1 1)
+S: (19 1 0 0)
+S: (19 1 0 1)
+S: (19 1 1 0)
+S: (19 1 1 1)
+// action: UP, new pos: (11), cell type: #
+T: (19 k t s), UP, (63 k t s) = 1
+R: (19 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (19 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (27), cell type: -
+T: (19 k t s), DOWN, (19 k t s) = 0.14285714285714285
+R: (19 k t s), DOWN, (19 k t s), 0) = 1
+T: (19 k t s), DOWN, (18 k t s) = 0.14285714285714285
+R: (19 k t 0), DOWN, (18 k t 0), -10) = 0.7
+R: (19 k t 0), DOWN, (18 k t 0), -1000) = 0.3
+R: (19 k t 1), DOWN, (18 k t 1), 0) = 1
+T: (19 k t s), DOWN, (20 k t s) = 0.14285714285714285
+R: (19 k t s), DOWN, (20 k t s), 0) = 1
+T: (19 k t s), DOWN, (35 k t s) = 0.14285714285714285
+R: (19 k t 0), DOWN, (35 k t 0), -10) = 0.7
+R: (19 k t 0), DOWN, (35 k t 0), -1000) = 0.3
+R: (19 k t 1), DOWN, (35 k t 1), 0) = 1
+T: (19 k t s), DOWN, (63 k t s) = 0.14285714285714285
+R: (19 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (19 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (19 k t s), DOWN, (63 k t s) = 0.14285714285714285
+R: (19 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (19 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (19 k t s), DOWN, (26 k t s) = 0.14285714285714285
+R: (19 k t s), DOWN, (26 k t s), 0) = 1
+// action: LEFT, new pos: (18), cell type: E
+T: (19 k t s), LEFT, (18 k t s) = 1
+R: (19 k t 0), LEFT, (18 k t 0), -10) = 0.7
+R: (19 k t 0), LEFT, (18 k t 0), -1000) = 0.3
+R: (19 k t 1), LEFT, (18 k t 1), 0) = 1
+// action: RIGHT, new pos: (20), cell type: _
+T: (19 k t s), RIGHT, (20 k t s) = 1
+R: (19 k t s), RIGHT, (20 k t s), 0) = 1
+S: (20 0 0 0)
+S: (20 0 0 1)
+S: (20 0 1 0)
+S: (20 0 1 1)
+S: (20 1 0 0)
+S: (20 1 0 1)
+S: (20 1 1 0)
+S: (20 1 1 1)
+// action: UP, new pos: (12), cell type: -
+T: (20 k t s), UP, (63 k t s) = 0.0375
+R: (20 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (20 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (20 k t s), UP, (4 k t s) = 0.0875
+R: (20 k t s), UP, (4 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), UP, (4 k t s), -10) = 0.8571428571428572
+T: (20 k t s), UP, (3 k t s) = 0.125
+R: (20 k t s), UP, (3 k t s), 0) = 1
+T: (20 k t s), UP, (63 k t s) = 0.125
+R: (20 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (20 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (20 k t s), UP, (20 k t s) = 0.125
+R: (20 k t s), UP, (20 k t s), 0) = 1
+T: (20 k t s), UP, (19 k t s) = 0.125
+R: (20 k t s), UP, (19 k t s), 0) = 1
+T: (20 k t s), UP, (21 k t s) = 0.125
+R: (20 k t s), UP, (21 k t s), 0) = 1
+T: (20 k t s), UP, (63 k t s) = 0.125
+R: (20 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (20 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (20 k t s), UP, (13 k t s) = 0.125
+R: (20 k t s), UP, (13 k t s), -1000) = 1
+// action: DOWN, new pos: (28), cell type: P
+T: (20 k t s), DOWN, (0 k t s) = 0.02564102564102564
+R: (20 0 t s), DOWN, (0 0 t s), 0) = 1
+R: (20 1 t s), DOWN, (0 1 t s), 100) = 1
+T: (20 k t s), DOWN, (1 k t s) = 0.02564102564102564
+R: (20 k t 0), DOWN, (1 k t 0), -10) = 0.7
+R: (20 k t 0), DOWN, (1 k t 0), -1000) = 0.3
+R: (20 k t 1), DOWN, (1 k t 1), 0) = 1
+T: (20 k t s), DOWN, (2 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (2 k t s), 0) = 1
+T: (20 k t s), DOWN, (3 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (3 k t s), 0) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (20 k t s), DOWN, (4 k t s) = 0.017948717948717947
+R: (20 k t s), DOWN, (4 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), DOWN, (4 k t s), -10) = 0.8571428571428572
+T: (20 k t s), DOWN, (6 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (6 k t s), -1000) = 1
+T: (20 k t s), DOWN, (7 k t s) = 0.02564102564102564
+R: (20 0 t s), DOWN, (7 1 t s), 50) = 1
+R: (20 1 t s), DOWN, (7 1 t s), 0) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (20 k t s), DOWN, (9 k t s) = 0.017948717948717947
+R: (20 k t s), DOWN, (9 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), DOWN, (9 k t s), -10) = 0.8571428571428572
+T: (20 k t s), DOWN, (13 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (13 k t s), -1000) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (20 k t s), DOWN, (15 k t s) = 0.017948717948717947
+R: (20 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (20 k t s), DOWN, (17 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (17 k t s), 0) = 1
+T: (20 k t s), DOWN, (18 k t s) = 0.02564102564102564
+R: (20 k t 0), DOWN, (18 k t 0), -10) = 0.7
+R: (20 k t 0), DOWN, (18 k t 0), -1000) = 0.3
+R: (20 k t 1), DOWN, (18 k t 1), 0) = 1
+T: (20 k t s), DOWN, (19 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (19 k t s), 0) = 1
+T: (20 k t s), DOWN, (20 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (20 k t s), 0) = 1
+T: (20 k t s), DOWN, (21 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (21 k t s), 0) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (20 k t s), DOWN, (23 k t s) = 0.017948717948717947
+R: (20 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (20 k t s), DOWN, (26 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (26 k t s), 0) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (20 k t s), DOWN, (30 k t s) = 0.017948717948717947
+R: (20 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+T: (20 k t s), DOWN, (31 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (31 k t s), 0) = 1
+T: (20 k t s), DOWN, (32 k t s) = 0.02564102564102564
+R: (20 k t 0), DOWN, (32 k t 1), 25) = 1
+R: (20 k t 1), DOWN, (32 k t 1), 0) = 1
+T: (20 k t s), DOWN, (35 k t s) = 0.02564102564102564
+R: (20 k t 0), DOWN, (35 k t 0), -10) = 0.7
+R: (20 k t 0), DOWN, (35 k t 0), -1000) = 0.3
+R: (20 k t 1), DOWN, (35 k t 1), 0) = 1
+T: (20 k t s), DOWN, (37 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (37 k t s), 0) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (20 k t s), DOWN, (41 k t s) = 0.017948717948717947
+R: (20 k t s), DOWN, (41 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), DOWN, (41 k t s), -10) = 0.8571428571428572
+T: (20 k t s), DOWN, (42 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (42 k t s), 0) = 1
+T: (20 k t s), DOWN, (43 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (43 k t s), 0) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (20 k t s), DOWN, (44 k t s) = 0.017948717948717947
+R: (20 k t s), DOWN, (44 k t s), -1000) = 0.14285714285714288
+R: (20 k t s), DOWN, (44 k t s), -10) = 0.8571428571428572
+T: (20 k t s), DOWN, (46 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (46 k t s), -1000) = 1
+T: (20 k t s), DOWN, (48 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (48 k t s), 0) = 1
+T: (20 k t s), DOWN, (51 k t s) = 0.02564102564102564
+R: (20 k t 0), DOWN, (51 k t 0), -10) = 0.7
+R: (20 k t 0), DOWN, (51 k t 0), -1000) = 0.3
+R: (20 k t 1), DOWN, (51 k t 1), 0) = 1
+T: (20 k t s), DOWN, (53 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (53 k t s), 0) = 1
+T: (20 k t s), DOWN, (55 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (55 k t s), 0) = 1
+T: (20 k t s), DOWN, (56 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (56 k t s), 0) = 1
+T: (20 k t s), DOWN, (57 k t s) = 0.02564102564102564
+R: (20 k t 0), DOWN, (57 k t 0), -10) = 0.7
+R: (20 k t 0), DOWN, (57 k t 0), -1000) = 0.3
+R: (20 k t 1), DOWN, (57 k t 1), 0) = 1
+T: (20 k t s), DOWN, (58 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (58 k t s), 0) = 1
+T: (20 k t s), DOWN, (59 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (59 k t s), 0) = 1
+T: (20 k t s), DOWN, (60 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (60 k t s), 0) = 1
+T: (20 k t s), DOWN, (61 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (61 k t s), 0) = 1
+T: (20 k t s), DOWN, (62 k t s) = 0.02564102564102564
+R: (20 k t s), DOWN, (62 k t s), 0) = 1
+T: (20 k t s), DOWN, (63 k t s) = 0.02564102564102564
+R: (20 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (20 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (19), cell type: _
+T: (20 k t s), LEFT, (19 k t s) = 1
+R: (20 k t s), LEFT, (19 k t s), 0) = 1
+// action: RIGHT, new pos: (21), cell type: _
+T: (20 k t s), RIGHT, (21 k t s) = 1
+R: (20 k t s), RIGHT, (21 k t s), 0) = 1
+S: (21 0 0 0)
+S: (21 0 0 1)
+S: (21 0 1 0)
+S: (21 0 1 1)
+S: (21 1 0 0)
+S: (21 1 0 1)
+S: (21 1 1 0)
+S: (21 1 1 1)
+// action: UP, new pos: (13), cell type: C
+T: (21 k t s), UP, (13 k t s) = 1
+R: (21 k t s), UP, (13 k t s), -1000) = 1
+// action: DOWN, new pos: (29), cell type: -
+T: (21 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (21 k t s), 0) = 1
+T: (21 k t s), DOWN, (20 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (20 k t s), 0) = 1
+T: (21 k t s), DOWN, (37 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (37 k t s), 0) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (30 k t s) = 0.03684210526315789
+R: (21 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+T: (21 k t s), DOWN, (13 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (13 k t s), -1000) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (15 k t s) = 0.03684210526315789
+R: (21 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (21 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (30 k t s) = 0.03684210526315789
+R: (21 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+T: (21 k t s), DOWN, (31 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (31 k t s), 0) = 1
+T: (21 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (21 k t s), 0) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (23 k t s) = 0.03684210526315789
+R: (21 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (21 k t s), DOWN, (6 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (6 k t s), -1000) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.05263157894736842
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (7 k t s) = 0.05263157894736842
+R: (21 0 t s), DOWN, (7 1 t s), 50) = 1
+R: (21 1 t s), DOWN, (7 1 t s), 0) = 1
+T: (21 k t s), DOWN, (21 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (21 k t s), 0) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (23 k t s) = 0.03684210526315789
+R: (21 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (21 k t s), DOWN, (13 k t s) = 0.05263157894736842
+R: (21 k t s), DOWN, (13 k t s), -1000) = 1
+T: (21 k t s), DOWN, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (21 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (21 k t s), DOWN, (15 k t s) = 0.03684210526315789
+R: (21 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (20), cell type: _
+T: (21 k t s), LEFT, (20 k t s) = 1
+R: (21 k t s), LEFT, (20 k t s), 0) = 1
+// action: RIGHT, new pos: (22), cell type: -
+T: (21 k t s), RIGHT, (13 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (15 k t s) = 0.03684210526315789
+R: (21 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+T: (21 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (30 k t s) = 0.03684210526315789
+R: (21 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+T: (21 k t s), RIGHT, (31 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (31 k t s), 0) = 1
+T: (21 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (21 k t s), 0) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (23 k t s) = 0.03684210526315789
+R: (21 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (21 k t s), RIGHT, (6 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (6 k t s), -1000) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (7 k t s) = 0.05263157894736842
+R: (21 0 t s), RIGHT, (7 1 t s), 50) = 1
+R: (21 1 t s), RIGHT, (7 1 t s), 0) = 1
+T: (21 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (21 k t s), 0) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (23 k t s) = 0.03684210526315789
+R: (21 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (21 k t s), RIGHT, (13 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (15 k t s) = 0.03684210526315789
+R: (21 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+T: (21 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (21 k t s), 0) = 1
+T: (21 k t s), RIGHT, (20 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (20 k t s), 0) = 1
+T: (21 k t s), RIGHT, (37 k t s) = 0.05263157894736842
+R: (21 k t s), RIGHT, (37 k t s), 0) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (21 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (21 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (21 k t s), RIGHT, (30 k t s) = 0.03684210526315789
+R: (21 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (21 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+S: (22 0 0 0)
+S: (22 0 0 1)
+S: (22 0 1 0)
+S: (22 0 1 1)
+S: (22 1 0 0)
+S: (22 1 0 1)
+S: (22 1 1 0)
+S: (22 1 1 1)
+// action: UP, new pos: (14), cell type: -
+T: (22 k t s), UP, (6 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (6 k t s), -1000) = 1
+T: (22 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (7 k t s) = 0.05263157894736842
+R: (22 0 t s), UP, (7 1 t s), 50) = 1
+R: (22 1 t s), UP, (7 1 t s), 0) = 1
+T: (22 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (21 k t s), 0) = 1
+T: (22 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (23 k t s) = 0.03684210526315789
+R: (22 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (22 k t s), UP, (13 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (13 k t s), -1000) = 1
+T: (22 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (15 k t s) = 0.03684210526315789
+R: (22 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (22 k t s), UP, (13 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (13 k t s), -1000) = 1
+T: (22 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (15 k t s) = 0.03684210526315789
+R: (22 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (22 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (30 k t s) = 0.03684210526315789
+R: (22 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+T: (22 k t s), UP, (31 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (31 k t s), 0) = 1
+T: (22 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (21 k t s), 0) = 1
+T: (22 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (23 k t s) = 0.03684210526315789
+R: (22 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (22 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (21 k t s), 0) = 1
+T: (22 k t s), UP, (20 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (20 k t s), 0) = 1
+T: (22 k t s), UP, (37 k t s) = 0.05263157894736842
+R: (22 k t s), UP, (37 k t s), 0) = 1
+T: (22 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (22 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (22 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (22 k t s), UP, (30 k t s) = 0.03684210526315789
+R: (22 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (30), cell type: R
+T: (22 k t s), DOWN, (63 k t s) = 0.3
+R: (22 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (22 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (22 k t s), DOWN, (30 k t s) = 0.7
+R: (22 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (21), cell type: _
+T: (22 k t s), LEFT, (21 k t s) = 1
+R: (22 k t s), LEFT, (21 k t s), 0) = 1
+// action: RIGHT, new pos: (23), cell type: R
+T: (22 k t s), RIGHT, (63 k t s) = 0.3
+R: (22 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (22 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (22 k t s), RIGHT, (23 k t s) = 0.7
+R: (22 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (22 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+S: (23 0 0 0)
+S: (23 0 0 1)
+S: (23 0 1 0)
+S: (23 0 1 1)
+S: (23 1 0 0)
+S: (23 1 0 1)
+S: (23 1 1 0)
+S: (23 1 1 1)
+// action: UP, new pos: (15), cell type: R
+T: (23 k t s), UP, (63 k t s) = 0.3
+R: (23 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (23 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (23 k t s), UP, (15 k t s) = 0.7
+R: (23 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (23 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (31), cell type: _
+T: (23 k t s), DOWN, (31 k t s) = 1
+R: (23 k t s), DOWN, (31 k t s), 0) = 1
+// action: LEFT, new pos: (22), cell type: -
+T: (23 k t s), LEFT, (13 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (13 k t s), -1000) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (15 k t s) = 0.03684210526315789
+R: (23 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (23 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+T: (23 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (30 k t s) = 0.03684210526315789
+R: (23 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (23 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+T: (23 k t s), LEFT, (31 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (31 k t s), 0) = 1
+T: (23 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (21 k t s), 0) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (23 k t s) = 0.03684210526315789
+R: (23 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (23 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (23 k t s), LEFT, (6 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (6 k t s), -1000) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (7 k t s) = 0.05263157894736842
+R: (23 0 t s), LEFT, (7 1 t s), 50) = 1
+R: (23 1 t s), LEFT, (7 1 t s), 0) = 1
+T: (23 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (21 k t s), 0) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (23 k t s) = 0.03684210526315789
+R: (23 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (23 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (23 k t s), LEFT, (13 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (13 k t s), -1000) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (15 k t s) = 0.03684210526315789
+R: (23 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (23 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+T: (23 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (21 k t s), 0) = 1
+T: (23 k t s), LEFT, (20 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (20 k t s), 0) = 1
+T: (23 k t s), LEFT, (37 k t s) = 0.05263157894736842
+R: (23 k t s), LEFT, (37 k t s), 0) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (23 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (23 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (23 k t s), LEFT, (30 k t s) = 0.03684210526315789
+R: (23 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (23 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+S: (24 0 0 0)
+S: (24 0 0 1)
+S: (24 0 1 0)
+S: (24 0 1 1)
+S: (24 1 0 0)
+S: (24 1 0 1)
+S: (24 1 1 0)
+S: (24 1 1 1)
+// action: UP, new pos: (16), cell type: -
+T: (24 k t s), UP, (63 k t s) = 0.25
+R: (24 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (24 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (24 k t s), UP, (63 k t s) = 0.075
+R: (24 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (24 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (24 k t s), UP, (9 k t s) = 0.175
+R: (24 k t s), UP, (9 k t s), -1000) = 0.14285714285714288
+R: (24 k t s), UP, (9 k t s), -10) = 0.8571428571428572
+T: (24 k t s), UP, (63 k t s) = 0.25
+R: (24 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (24 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (24 k t s), UP, (17 k t s) = 0.25
+R: (24 k t s), UP, (17 k t s), 0) = 1
+// action: DOWN, new pos: (32), cell type: S
+T: (24 k t s), DOWN, (32 k t s) = 1
+R: (24 k t 0), DOWN, (32 k t 1), 25) = 1
+R: (24 k t 1), DOWN, (32 k t 1), 0) = 1
+// action: RIGHT, new pos: (25), cell type: #
+T: (24 k t s), RIGHT, (63 k t s) = 1
+R: (24 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (24 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (25 0 0 0)
+S: (25 0 0 1)
+S: (25 0 1 0)
+S: (25 0 1 1)
+S: (25 1 0 0)
+S: (25 1 0 1)
+S: (25 1 1 0)
+S: (25 1 1 1)
+// action: UP, new pos: (17), cell type: _
+T: (25 k t s), UP, (17 k t s) = 1
+R: (25 k t s), UP, (17 k t s), 0) = 1
+// action: DOWN, new pos: (33), cell type: #
+T: (25 k t s), DOWN, (63 k t s) = 1
+R: (25 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (25 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (24), cell type: P
+T: (25 k t s), LEFT, (0 k t s) = 0.02564102564102564
+R: (25 0 t s), LEFT, (0 0 t s), 0) = 1
+R: (25 1 t s), LEFT, (0 1 t s), 100) = 1
+T: (25 k t s), LEFT, (1 k t s) = 0.02564102564102564
+R: (25 k t 0), LEFT, (1 k t 0), -10) = 0.7
+R: (25 k t 0), LEFT, (1 k t 0), -1000) = 0.3
+R: (25 k t 1), LEFT, (1 k t 1), 0) = 1
+T: (25 k t s), LEFT, (2 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (2 k t s), 0) = 1
+T: (25 k t s), LEFT, (3 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (3 k t s), 0) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (25 k t s), LEFT, (4 k t s) = 0.017948717948717947
+R: (25 k t s), LEFT, (4 k t s), -1000) = 0.14285714285714288
+R: (25 k t s), LEFT, (4 k t s), -10) = 0.8571428571428572
+T: (25 k t s), LEFT, (6 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (6 k t s), -1000) = 1
+T: (25 k t s), LEFT, (7 k t s) = 0.02564102564102564
+R: (25 0 t s), LEFT, (7 1 t s), 50) = 1
+R: (25 1 t s), LEFT, (7 1 t s), 0) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (25 k t s), LEFT, (9 k t s) = 0.017948717948717947
+R: (25 k t s), LEFT, (9 k t s), -1000) = 0.14285714285714288
+R: (25 k t s), LEFT, (9 k t s), -10) = 0.8571428571428572
+T: (25 k t s), LEFT, (13 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (13 k t s), -1000) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (25 k t s), LEFT, (15 k t s) = 0.017948717948717947
+R: (25 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (25 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+T: (25 k t s), LEFT, (17 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (17 k t s), 0) = 1
+T: (25 k t s), LEFT, (18 k t s) = 0.02564102564102564
+R: (25 k t 0), LEFT, (18 k t 0), -10) = 0.7
+R: (25 k t 0), LEFT, (18 k t 0), -1000) = 0.3
+R: (25 k t 1), LEFT, (18 k t 1), 0) = 1
+T: (25 k t s), LEFT, (19 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (19 k t s), 0) = 1
+T: (25 k t s), LEFT, (20 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (20 k t s), 0) = 1
+T: (25 k t s), LEFT, (21 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (21 k t s), 0) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (25 k t s), LEFT, (23 k t s) = 0.017948717948717947
+R: (25 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (25 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (25 k t s), LEFT, (26 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (26 k t s), 0) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (25 k t s), LEFT, (30 k t s) = 0.017948717948717947
+R: (25 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (25 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+T: (25 k t s), LEFT, (31 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (31 k t s), 0) = 1
+T: (25 k t s), LEFT, (32 k t s) = 0.02564102564102564
+R: (25 k t 0), LEFT, (32 k t 1), 25) = 1
+R: (25 k t 1), LEFT, (32 k t 1), 0) = 1
+T: (25 k t s), LEFT, (35 k t s) = 0.02564102564102564
+R: (25 k t 0), LEFT, (35 k t 0), -10) = 0.7
+R: (25 k t 0), LEFT, (35 k t 0), -1000) = 0.3
+R: (25 k t 1), LEFT, (35 k t 1), 0) = 1
+T: (25 k t s), LEFT, (37 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (37 k t s), 0) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (25 k t s), LEFT, (41 k t s) = 0.017948717948717947
+R: (25 k t s), LEFT, (41 k t s), -1000) = 0.14285714285714288
+R: (25 k t s), LEFT, (41 k t s), -10) = 0.8571428571428572
+T: (25 k t s), LEFT, (42 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (42 k t s), 0) = 1
+T: (25 k t s), LEFT, (43 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (43 k t s), 0) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (25 k t s), LEFT, (44 k t s) = 0.017948717948717947
+R: (25 k t s), LEFT, (44 k t s), -1000) = 0.14285714285714288
+R: (25 k t s), LEFT, (44 k t s), -10) = 0.8571428571428572
+T: (25 k t s), LEFT, (46 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (46 k t s), -1000) = 1
+T: (25 k t s), LEFT, (48 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (48 k t s), 0) = 1
+T: (25 k t s), LEFT, (51 k t s) = 0.02564102564102564
+R: (25 k t 0), LEFT, (51 k t 0), -10) = 0.7
+R: (25 k t 0), LEFT, (51 k t 0), -1000) = 0.3
+R: (25 k t 1), LEFT, (51 k t 1), 0) = 1
+T: (25 k t s), LEFT, (53 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (53 k t s), 0) = 1
+T: (25 k t s), LEFT, (55 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (55 k t s), 0) = 1
+T: (25 k t s), LEFT, (56 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (56 k t s), 0) = 1
+T: (25 k t s), LEFT, (57 k t s) = 0.02564102564102564
+R: (25 k t 0), LEFT, (57 k t 0), -10) = 0.7
+R: (25 k t 0), LEFT, (57 k t 0), -1000) = 0.3
+R: (25 k t 1), LEFT, (57 k t 1), 0) = 1
+T: (25 k t s), LEFT, (58 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (58 k t s), 0) = 1
+T: (25 k t s), LEFT, (59 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (59 k t s), 0) = 1
+T: (25 k t s), LEFT, (60 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (60 k t s), 0) = 1
+T: (25 k t s), LEFT, (61 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (61 k t s), 0) = 1
+T: (25 k t s), LEFT, (62 k t s) = 0.02564102564102564
+R: (25 k t s), LEFT, (62 k t s), 0) = 1
+T: (25 k t s), LEFT, (63 k t s) = 0.02564102564102564
+R: (25 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (25 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (26), cell type: _
+T: (25 k t s), RIGHT, (26 k t s) = 1
+R: (25 k t s), RIGHT, (26 k t s), 0) = 1
+S: (26 0 0 0)
+S: (26 0 0 1)
+S: (26 0 1 0)
+S: (26 0 1 1)
+S: (26 1 0 0)
+S: (26 1 0 1)
+S: (26 1 1 0)
+S: (26 1 1 1)
+// action: UP, new pos: (18), cell type: E
+T: (26 k t s), UP, (18 k t s) = 1
+R: (26 k t 0), UP, (18 k t 0), -10) = 0.7
+R: (26 k t 0), UP, (18 k t 0), -1000) = 0.3
+R: (26 k t 1), UP, (18 k t 1), 0) = 1
+// action: DOWN, new pos: (34), cell type: #
+T: (26 k t s), DOWN, (63 k t s) = 1
+R: (26 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (26 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (25), cell type: #
+T: (26 k t s), LEFT, (63 k t s) = 1
+R: (26 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (26 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (27), cell type: -
+T: (26 k t s), RIGHT, (19 k t s) = 0.14285714285714285
+R: (26 k t s), RIGHT, (19 k t s), 0) = 1
+T: (26 k t s), RIGHT, (18 k t s) = 0.14285714285714285
+R: (26 k t 0), RIGHT, (18 k t 0), -10) = 0.7
+R: (26 k t 0), RIGHT, (18 k t 0), -1000) = 0.3
+R: (26 k t 1), RIGHT, (18 k t 1), 0) = 1
+T: (26 k t s), RIGHT, (20 k t s) = 0.14285714285714285
+R: (26 k t s), RIGHT, (20 k t s), 0) = 1
+T: (26 k t s), RIGHT, (35 k t s) = 0.14285714285714285
+R: (26 k t 0), RIGHT, (35 k t 0), -10) = 0.7
+R: (26 k t 0), RIGHT, (35 k t 0), -1000) = 0.3
+R: (26 k t 1), RIGHT, (35 k t 1), 0) = 1
+T: (26 k t s), RIGHT, (63 k t s) = 0.14285714285714285
+R: (26 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (26 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (26 k t s), RIGHT, (63 k t s) = 0.14285714285714285
+R: (26 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (26 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (26 k t s), RIGHT, (26 k t s) = 0.14285714285714285
+R: (26 k t s), RIGHT, (26 k t s), 0) = 1
+S: (27 0 0 0)
+S: (27 0 0 1)
+S: (27 0 1 0)
+S: (27 0 1 1)
+S: (27 1 0 0)
+S: (27 1 0 1)
+S: (27 1 1 0)
+S: (27 1 1 1)
+// action: UP, new pos: (19), cell type: _
+T: (27 k t s), UP, (19 k t s) = 1
+R: (27 k t s), UP, (19 k t s), 0) = 1
+// action: DOWN, new pos: (35), cell type: E
+T: (27 k t s), DOWN, (35 k t s) = 1
+R: (27 k t 0), DOWN, (35 k t 0), -10) = 0.7
+R: (27 k t 0), DOWN, (35 k t 0), -1000) = 0.3
+R: (27 k t 1), DOWN, (35 k t 1), 0) = 1
+// action: LEFT, new pos: (26), cell type: _
+T: (27 k t s), LEFT, (26 k t s) = 1
+R: (27 k t s), LEFT, (26 k t s), 0) = 1
+// action: RIGHT, new pos: (28), cell type: P
+T: (27 k t s), RIGHT, (0 k t s) = 0.02564102564102564
+R: (27 0 t s), RIGHT, (0 0 t s), 0) = 1
+R: (27 1 t s), RIGHT, (0 1 t s), 100) = 1
+T: (27 k t s), RIGHT, (1 k t s) = 0.02564102564102564
+R: (27 k t 0), RIGHT, (1 k t 0), -10) = 0.7
+R: (27 k t 0), RIGHT, (1 k t 0), -1000) = 0.3
+R: (27 k t 1), RIGHT, (1 k t 1), 0) = 1
+T: (27 k t s), RIGHT, (2 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (2 k t s), 0) = 1
+T: (27 k t s), RIGHT, (3 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (3 k t s), 0) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (27 k t s), RIGHT, (4 k t s) = 0.017948717948717947
+R: (27 k t s), RIGHT, (4 k t s), -1000) = 0.14285714285714288
+R: (27 k t s), RIGHT, (4 k t s), -10) = 0.8571428571428572
+T: (27 k t s), RIGHT, (6 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (6 k t s), -1000) = 1
+T: (27 k t s), RIGHT, (7 k t s) = 0.02564102564102564
+R: (27 0 t s), RIGHT, (7 1 t s), 50) = 1
+R: (27 1 t s), RIGHT, (7 1 t s), 0) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (27 k t s), RIGHT, (9 k t s) = 0.017948717948717947
+R: (27 k t s), RIGHT, (9 k t s), -1000) = 0.14285714285714288
+R: (27 k t s), RIGHT, (9 k t s), -10) = 0.8571428571428572
+T: (27 k t s), RIGHT, (13 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (27 k t s), RIGHT, (15 k t s) = 0.017948717948717947
+R: (27 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (27 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+T: (27 k t s), RIGHT, (17 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (17 k t s), 0) = 1
+T: (27 k t s), RIGHT, (18 k t s) = 0.02564102564102564
+R: (27 k t 0), RIGHT, (18 k t 0), -10) = 0.7
+R: (27 k t 0), RIGHT, (18 k t 0), -1000) = 0.3
+R: (27 k t 1), RIGHT, (18 k t 1), 0) = 1
+T: (27 k t s), RIGHT, (19 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (19 k t s), 0) = 1
+T: (27 k t s), RIGHT, (20 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (20 k t s), 0) = 1
+T: (27 k t s), RIGHT, (21 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (21 k t s), 0) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (27 k t s), RIGHT, (23 k t s) = 0.017948717948717947
+R: (27 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (27 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (27 k t s), RIGHT, (26 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (26 k t s), 0) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (27 k t s), RIGHT, (30 k t s) = 0.017948717948717947
+R: (27 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (27 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+T: (27 k t s), RIGHT, (31 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (31 k t s), 0) = 1
+T: (27 k t s), RIGHT, (32 k t s) = 0.02564102564102564
+R: (27 k t 0), RIGHT, (32 k t 1), 25) = 1
+R: (27 k t 1), RIGHT, (32 k t 1), 0) = 1
+T: (27 k t s), RIGHT, (35 k t s) = 0.02564102564102564
+R: (27 k t 0), RIGHT, (35 k t 0), -10) = 0.7
+R: (27 k t 0), RIGHT, (35 k t 0), -1000) = 0.3
+R: (27 k t 1), RIGHT, (35 k t 1), 0) = 1
+T: (27 k t s), RIGHT, (37 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (37 k t s), 0) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (27 k t s), RIGHT, (41 k t s) = 0.017948717948717947
+R: (27 k t s), RIGHT, (41 k t s), -1000) = 0.14285714285714288
+R: (27 k t s), RIGHT, (41 k t s), -10) = 0.8571428571428572
+T: (27 k t s), RIGHT, (42 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (42 k t s), 0) = 1
+T: (27 k t s), RIGHT, (43 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (43 k t s), 0) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (27 k t s), RIGHT, (44 k t s) = 0.017948717948717947
+R: (27 k t s), RIGHT, (44 k t s), -1000) = 0.14285714285714288
+R: (27 k t s), RIGHT, (44 k t s), -10) = 0.8571428571428572
+T: (27 k t s), RIGHT, (46 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (46 k t s), -1000) = 1
+T: (27 k t s), RIGHT, (48 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (48 k t s), 0) = 1
+T: (27 k t s), RIGHT, (51 k t s) = 0.02564102564102564
+R: (27 k t 0), RIGHT, (51 k t 0), -10) = 0.7
+R: (27 k t 0), RIGHT, (51 k t 0), -1000) = 0.3
+R: (27 k t 1), RIGHT, (51 k t 1), 0) = 1
+T: (27 k t s), RIGHT, (53 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (53 k t s), 0) = 1
+T: (27 k t s), RIGHT, (55 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (55 k t s), 0) = 1
+T: (27 k t s), RIGHT, (56 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (56 k t s), 0) = 1
+T: (27 k t s), RIGHT, (57 k t s) = 0.02564102564102564
+R: (27 k t 0), RIGHT, (57 k t 0), -10) = 0.7
+R: (27 k t 0), RIGHT, (57 k t 0), -1000) = 0.3
+R: (27 k t 1), RIGHT, (57 k t 1), 0) = 1
+T: (27 k t s), RIGHT, (58 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (58 k t s), 0) = 1
+T: (27 k t s), RIGHT, (59 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (59 k t s), 0) = 1
+T: (27 k t s), RIGHT, (60 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (60 k t s), 0) = 1
+T: (27 k t s), RIGHT, (61 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (61 k t s), 0) = 1
+T: (27 k t s), RIGHT, (62 k t s) = 0.02564102564102564
+R: (27 k t s), RIGHT, (62 k t s), 0) = 1
+T: (27 k t s), RIGHT, (63 k t s) = 0.02564102564102564
+R: (27 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (27 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (28 0 0 0)
+S: (28 0 0 1)
+S: (28 0 1 0)
+S: (28 0 1 1)
+S: (28 1 0 0)
+S: (28 1 0 1)
+S: (28 1 1 0)
+S: (28 1 1 1)
+// action: UP, new pos: (20), cell type: _
+T: (28 k t s), UP, (20 k t s) = 1
+R: (28 k t s), UP, (20 k t s), 0) = 1
+// action: DOWN, new pos: (36), cell type: #
+T: (28 k t s), DOWN, (63 k t s) = 1
+R: (28 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (28 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (27), cell type: -
+T: (28 k t s), LEFT, (19 k t s) = 0.14285714285714285
+R: (28 k t s), LEFT, (19 k t s), 0) = 1
+T: (28 k t s), LEFT, (18 k t s) = 0.14285714285714285
+R: (28 k t 0), LEFT, (18 k t 0), -10) = 0.7
+R: (28 k t 0), LEFT, (18 k t 0), -1000) = 0.3
+R: (28 k t 1), LEFT, (18 k t 1), 0) = 1
+T: (28 k t s), LEFT, (20 k t s) = 0.14285714285714285
+R: (28 k t s), LEFT, (20 k t s), 0) = 1
+T: (28 k t s), LEFT, (35 k t s) = 0.14285714285714285
+R: (28 k t 0), LEFT, (35 k t 0), -10) = 0.7
+R: (28 k t 0), LEFT, (35 k t 0), -1000) = 0.3
+R: (28 k t 1), LEFT, (35 k t 1), 0) = 1
+T: (28 k t s), LEFT, (63 k t s) = 0.14285714285714285
+R: (28 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (28 k t s), LEFT, (63 k t s) = 0.14285714285714285
+R: (28 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (28 k t s), LEFT, (26 k t s) = 0.14285714285714285
+R: (28 k t s), LEFT, (26 k t s), 0) = 1
+// action: RIGHT, new pos: (29), cell type: -
+T: (28 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (21 k t s), 0) = 1
+T: (28 k t s), RIGHT, (20 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (20 k t s), 0) = 1
+T: (28 k t s), RIGHT, (37 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (37 k t s), 0) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (30 k t s) = 0.03684210526315789
+R: (28 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (28 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+T: (28 k t s), RIGHT, (13 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (15 k t s) = 0.03684210526315789
+R: (28 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (28 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+T: (28 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (30 k t s) = 0.03684210526315789
+R: (28 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (28 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+T: (28 k t s), RIGHT, (31 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (31 k t s), 0) = 1
+T: (28 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (21 k t s), 0) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (23 k t s) = 0.03684210526315789
+R: (28 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (28 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (28 k t s), RIGHT, (6 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (6 k t s), -1000) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.05263157894736842
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (7 k t s) = 0.05263157894736842
+R: (28 0 t s), RIGHT, (7 1 t s), 50) = 1
+R: (28 1 t s), RIGHT, (7 1 t s), 0) = 1
+T: (28 k t s), RIGHT, (21 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (21 k t s), 0) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (23 k t s) = 0.03684210526315789
+R: (28 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (28 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (28 k t s), RIGHT, (13 k t s) = 0.05263157894736842
+R: (28 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (28 k t s), RIGHT, (63 k t s) = 0.015789473684210523
+R: (28 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (28 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (28 k t s), RIGHT, (15 k t s) = 0.03684210526315789
+R: (28 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (28 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+S: (29 0 0 0)
+S: (29 0 0 1)
+S: (29 0 1 0)
+S: (29 0 1 1)
+S: (29 1 0 0)
+S: (29 1 0 1)
+S: (29 1 1 0)
+S: (29 1 1 1)
+// action: UP, new pos: (21), cell type: _
+T: (29 k t s), UP, (21 k t s) = 1
+R: (29 k t s), UP, (21 k t s), 0) = 1
+// action: DOWN, new pos: (37), cell type: _
+T: (29 k t s), DOWN, (37 k t s) = 1
+R: (29 k t s), DOWN, (37 k t s), 0) = 1
+// action: LEFT, new pos: (28), cell type: P
+T: (29 k t s), LEFT, (0 k t s) = 0.02564102564102564
+R: (29 0 t s), LEFT, (0 0 t s), 0) = 1
+R: (29 1 t s), LEFT, (0 1 t s), 100) = 1
+T: (29 k t s), LEFT, (1 k t s) = 0.02564102564102564
+R: (29 k t 0), LEFT, (1 k t 0), -10) = 0.7
+R: (29 k t 0), LEFT, (1 k t 0), -1000) = 0.3
+R: (29 k t 1), LEFT, (1 k t 1), 0) = 1
+T: (29 k t s), LEFT, (2 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (2 k t s), 0) = 1
+T: (29 k t s), LEFT, (3 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (3 k t s), 0) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (29 k t s), LEFT, (4 k t s) = 0.017948717948717947
+R: (29 k t s), LEFT, (4 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), LEFT, (4 k t s), -10) = 0.8571428571428572
+T: (29 k t s), LEFT, (6 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (6 k t s), -1000) = 1
+T: (29 k t s), LEFT, (7 k t s) = 0.02564102564102564
+R: (29 0 t s), LEFT, (7 1 t s), 50) = 1
+R: (29 1 t s), LEFT, (7 1 t s), 0) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (29 k t s), LEFT, (9 k t s) = 0.017948717948717947
+R: (29 k t s), LEFT, (9 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), LEFT, (9 k t s), -10) = 0.8571428571428572
+T: (29 k t s), LEFT, (13 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (13 k t s), -1000) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (29 k t s), LEFT, (15 k t s) = 0.017948717948717947
+R: (29 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+T: (29 k t s), LEFT, (17 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (17 k t s), 0) = 1
+T: (29 k t s), LEFT, (18 k t s) = 0.02564102564102564
+R: (29 k t 0), LEFT, (18 k t 0), -10) = 0.7
+R: (29 k t 0), LEFT, (18 k t 0), -1000) = 0.3
+R: (29 k t 1), LEFT, (18 k t 1), 0) = 1
+T: (29 k t s), LEFT, (19 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (19 k t s), 0) = 1
+T: (29 k t s), LEFT, (20 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (20 k t s), 0) = 1
+T: (29 k t s), LEFT, (21 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (21 k t s), 0) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (29 k t s), LEFT, (23 k t s) = 0.017948717948717947
+R: (29 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (29 k t s), LEFT, (26 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (26 k t s), 0) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (29 k t s), LEFT, (30 k t s) = 0.017948717948717947
+R: (29 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+T: (29 k t s), LEFT, (31 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (31 k t s), 0) = 1
+T: (29 k t s), LEFT, (32 k t s) = 0.02564102564102564
+R: (29 k t 0), LEFT, (32 k t 1), 25) = 1
+R: (29 k t 1), LEFT, (32 k t 1), 0) = 1
+T: (29 k t s), LEFT, (35 k t s) = 0.02564102564102564
+R: (29 k t 0), LEFT, (35 k t 0), -10) = 0.7
+R: (29 k t 0), LEFT, (35 k t 0), -1000) = 0.3
+R: (29 k t 1), LEFT, (35 k t 1), 0) = 1
+T: (29 k t s), LEFT, (37 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (37 k t s), 0) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (29 k t s), LEFT, (41 k t s) = 0.017948717948717947
+R: (29 k t s), LEFT, (41 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), LEFT, (41 k t s), -10) = 0.8571428571428572
+T: (29 k t s), LEFT, (42 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (42 k t s), 0) = 1
+T: (29 k t s), LEFT, (43 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (43 k t s), 0) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.007692307692307692
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (29 k t s), LEFT, (44 k t s) = 0.017948717948717947
+R: (29 k t s), LEFT, (44 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), LEFT, (44 k t s), -10) = 0.8571428571428572
+T: (29 k t s), LEFT, (46 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (46 k t s), -1000) = 1
+T: (29 k t s), LEFT, (48 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (48 k t s), 0) = 1
+T: (29 k t s), LEFT, (51 k t s) = 0.02564102564102564
+R: (29 k t 0), LEFT, (51 k t 0), -10) = 0.7
+R: (29 k t 0), LEFT, (51 k t 0), -1000) = 0.3
+R: (29 k t 1), LEFT, (51 k t 1), 0) = 1
+T: (29 k t s), LEFT, (53 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (53 k t s), 0) = 1
+T: (29 k t s), LEFT, (55 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (55 k t s), 0) = 1
+T: (29 k t s), LEFT, (56 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (56 k t s), 0) = 1
+T: (29 k t s), LEFT, (57 k t s) = 0.02564102564102564
+R: (29 k t 0), LEFT, (57 k t 0), -10) = 0.7
+R: (29 k t 0), LEFT, (57 k t 0), -1000) = 0.3
+R: (29 k t 1), LEFT, (57 k t 1), 0) = 1
+T: (29 k t s), LEFT, (58 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (58 k t s), 0) = 1
+T: (29 k t s), LEFT, (59 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (59 k t s), 0) = 1
+T: (29 k t s), LEFT, (60 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (60 k t s), 0) = 1
+T: (29 k t s), LEFT, (61 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (61 k t s), 0) = 1
+T: (29 k t s), LEFT, (62 k t s) = 0.02564102564102564
+R: (29 k t s), LEFT, (62 k t s), 0) = 1
+T: (29 k t s), LEFT, (63 k t s) = 0.02564102564102564
+R: (29 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (30), cell type: R
+T: (29 k t s), RIGHT, (63 k t s) = 0.3
+R: (29 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (29 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (29 k t s), RIGHT, (30 k t s) = 0.7
+R: (29 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (29 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+S: (30 0 0 0)
+S: (30 0 0 1)
+S: (30 0 1 0)
+S: (30 0 1 1)
+S: (30 1 0 0)
+S: (30 1 0 1)
+S: (30 1 1 0)
+S: (30 1 1 1)
+// action: UP, new pos: (22), cell type: -
+T: (30 k t s), UP, (13 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (13 k t s), -1000) = 1
+T: (30 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (15 k t s) = 0.03684210526315789
+R: (30 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (30 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (30 k t s) = 0.03684210526315789
+R: (30 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+T: (30 k t s), UP, (31 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (31 k t s), 0) = 1
+T: (30 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (21 k t s), 0) = 1
+T: (30 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (23 k t s) = 0.03684210526315789
+R: (30 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (30 k t s), UP, (6 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (6 k t s), -1000) = 1
+T: (30 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (7 k t s) = 0.05263157894736842
+R: (30 0 t s), UP, (7 1 t s), 50) = 1
+R: (30 1 t s), UP, (7 1 t s), 0) = 1
+T: (30 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (21 k t s), 0) = 1
+T: (30 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (23 k t s) = 0.03684210526315789
+R: (30 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (30 k t s), UP, (13 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (13 k t s), -1000) = 1
+T: (30 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (15 k t s) = 0.03684210526315789
+R: (30 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (30 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (21 k t s), 0) = 1
+T: (30 k t s), UP, (20 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (20 k t s), 0) = 1
+T: (30 k t s), UP, (37 k t s) = 0.05263157894736842
+R: (30 k t s), UP, (37 k t s), 0) = 1
+T: (30 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (30 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (30 k t s), UP, (30 k t s) = 0.03684210526315789
+R: (30 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (38), cell type: #
+T: (30 k t s), DOWN, (63 k t s) = 1
+R: (30 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (30 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (29), cell type: -
+T: (30 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (21 k t s), 0) = 1
+T: (30 k t s), LEFT, (20 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (20 k t s), 0) = 1
+T: (30 k t s), LEFT, (37 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (37 k t s), 0) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (30 k t s) = 0.03684210526315789
+R: (30 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+T: (30 k t s), LEFT, (13 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (13 k t s), -1000) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (15 k t s) = 0.03684210526315789
+R: (30 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+T: (30 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (30 k t s) = 0.03684210526315789
+R: (30 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+T: (30 k t s), LEFT, (31 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (31 k t s), 0) = 1
+T: (30 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (21 k t s), 0) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (23 k t s) = 0.03684210526315789
+R: (30 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (30 k t s), LEFT, (6 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (6 k t s), -1000) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.05263157894736842
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (7 k t s) = 0.05263157894736842
+R: (30 0 t s), LEFT, (7 1 t s), 50) = 1
+R: (30 1 t s), LEFT, (7 1 t s), 0) = 1
+T: (30 k t s), LEFT, (21 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (21 k t s), 0) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (23 k t s) = 0.03684210526315789
+R: (30 k t s), LEFT, (23 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), LEFT, (23 k t s), -10) = 0.8571428571428572
+T: (30 k t s), LEFT, (13 k t s) = 0.05263157894736842
+R: (30 k t s), LEFT, (13 k t s), -1000) = 1
+T: (30 k t s), LEFT, (63 k t s) = 0.015789473684210523
+R: (30 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (30 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (30 k t s), LEFT, (15 k t s) = 0.03684210526315789
+R: (30 k t s), LEFT, (15 k t s), -1000) = 0.14285714285714288
+R: (30 k t s), LEFT, (15 k t s), -10) = 0.8571428571428572
+// action: RIGHT, new pos: (31), cell type: _
+T: (30 k t s), RIGHT, (31 k t s) = 1
+R: (30 k t s), RIGHT, (31 k t s), 0) = 1
+S: (31 0 0 0)
+S: (31 0 0 1)
+S: (31 0 1 0)
+S: (31 0 1 1)
+S: (31 1 0 0)
+S: (31 1 0 1)
+S: (31 1 1 0)
+S: (31 1 1 1)
+// action: UP, new pos: (23), cell type: R
+T: (31 k t s), UP, (63 k t s) = 0.3
+R: (31 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (31 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (31 k t s), UP, (23 k t s) = 0.7
+R: (31 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (31 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (39), cell type: #
+T: (31 k t s), DOWN, (63 k t s) = 1
+R: (31 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (31 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (30), cell type: R
+T: (31 k t s), LEFT, (63 k t s) = 0.3
+R: (31 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (31 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (31 k t s), LEFT, (30 k t s) = 0.7
+R: (31 k t s), LEFT, (30 k t s), -1000) = 0.14285714285714288
+R: (31 k t s), LEFT, (30 k t s), -10) = 0.8571428571428572
+S: (32 0 0 0)
+S: (32 0 0 1)
+S: (32 0 1 0)
+S: (32 0 1 1)
+S: (32 1 0 0)
+S: (32 1 0 1)
+S: (32 1 1 0)
+S: (32 1 1 1)
+// action: UP, new pos: (24), cell type: P
+T: (32 k t s), UP, (0 k t s) = 0.02564102564102564
+R: (32 0 t s), UP, (0 0 t s), 0) = 1
+R: (32 1 t s), UP, (0 1 t s), 100) = 1
+T: (32 k t s), UP, (1 k t s) = 0.02564102564102564
+R: (32 k t 0), UP, (1 k t 0), -10) = 0.7
+R: (32 k t 0), UP, (1 k t 0), -1000) = 0.3
+R: (32 k t 1), UP, (1 k t 1), 0) = 1
+T: (32 k t s), UP, (2 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (2 k t s), 0) = 1
+T: (32 k t s), UP, (3 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (3 k t s), 0) = 1
+T: (32 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (32 k t s), UP, (4 k t s) = 0.017948717948717947
+R: (32 k t s), UP, (4 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), UP, (4 k t s), -10) = 0.8571428571428572
+T: (32 k t s), UP, (6 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (6 k t s), -1000) = 1
+T: (32 k t s), UP, (7 k t s) = 0.02564102564102564
+R: (32 0 t s), UP, (7 1 t s), 50) = 1
+R: (32 1 t s), UP, (7 1 t s), 0) = 1
+T: (32 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (32 k t s), UP, (9 k t s) = 0.017948717948717947
+R: (32 k t s), UP, (9 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), UP, (9 k t s), -10) = 0.8571428571428572
+T: (32 k t s), UP, (13 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (13 k t s), -1000) = 1
+T: (32 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (32 k t s), UP, (15 k t s) = 0.017948717948717947
+R: (32 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (32 k t s), UP, (17 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (17 k t s), 0) = 1
+T: (32 k t s), UP, (18 k t s) = 0.02564102564102564
+R: (32 k t 0), UP, (18 k t 0), -10) = 0.7
+R: (32 k t 0), UP, (18 k t 0), -1000) = 0.3
+R: (32 k t 1), UP, (18 k t 1), 0) = 1
+T: (32 k t s), UP, (19 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (19 k t s), 0) = 1
+T: (32 k t s), UP, (20 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (20 k t s), 0) = 1
+T: (32 k t s), UP, (21 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (21 k t s), 0) = 1
+T: (32 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (32 k t s), UP, (23 k t s) = 0.017948717948717947
+R: (32 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (32 k t s), UP, (26 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (26 k t s), 0) = 1
+T: (32 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (32 k t s), UP, (30 k t s) = 0.017948717948717947
+R: (32 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+T: (32 k t s), UP, (31 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (31 k t s), 0) = 1
+T: (32 k t s), UP, (32 k t s) = 0.02564102564102564
+R: (32 k t 0), UP, (32 k t 1), 25) = 1
+R: (32 k t 1), UP, (32 k t 1), 0) = 1
+T: (32 k t s), UP, (35 k t s) = 0.02564102564102564
+R: (32 k t 0), UP, (35 k t 0), -10) = 0.7
+R: (32 k t 0), UP, (35 k t 0), -1000) = 0.3
+R: (32 k t 1), UP, (35 k t 1), 0) = 1
+T: (32 k t s), UP, (37 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (37 k t s), 0) = 1
+T: (32 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (32 k t s), UP, (41 k t s) = 0.017948717948717947
+R: (32 k t s), UP, (41 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), UP, (41 k t s), -10) = 0.8571428571428572
+T: (32 k t s), UP, (42 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (42 k t s), 0) = 1
+T: (32 k t s), UP, (43 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (43 k t s), 0) = 1
+T: (32 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (32 k t s), UP, (44 k t s) = 0.017948717948717947
+R: (32 k t s), UP, (44 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), UP, (44 k t s), -10) = 0.8571428571428572
+T: (32 k t s), UP, (46 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (46 k t s), -1000) = 1
+T: (32 k t s), UP, (48 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (48 k t s), 0) = 1
+T: (32 k t s), UP, (51 k t s) = 0.02564102564102564
+R: (32 k t 0), UP, (51 k t 0), -10) = 0.7
+R: (32 k t 0), UP, (51 k t 0), -1000) = 0.3
+R: (32 k t 1), UP, (51 k t 1), 0) = 1
+T: (32 k t s), UP, (53 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (53 k t s), 0) = 1
+T: (32 k t s), UP, (55 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (55 k t s), 0) = 1
+T: (32 k t s), UP, (56 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (56 k t s), 0) = 1
+T: (32 k t s), UP, (57 k t s) = 0.02564102564102564
+R: (32 k t 0), UP, (57 k t 0), -10) = 0.7
+R: (32 k t 0), UP, (57 k t 0), -1000) = 0.3
+R: (32 k t 1), UP, (57 k t 1), 0) = 1
+T: (32 k t s), UP, (58 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (58 k t s), 0) = 1
+T: (32 k t s), UP, (59 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (59 k t s), 0) = 1
+T: (32 k t s), UP, (60 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (60 k t s), 0) = 1
+T: (32 k t s), UP, (61 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (61 k t s), 0) = 1
+T: (32 k t s), UP, (62 k t s) = 0.02564102564102564
+R: (32 k t s), UP, (62 k t s), 0) = 1
+T: (32 k t s), UP, (63 k t s) = 0.02564102564102564
+R: (32 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (32 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (40), cell type: -
+T: (32 k t s), DOWN, (32 k t s) = 0.2
+R: (32 k t 0), DOWN, (32 k t 1), 25) = 1
+R: (32 k t 1), DOWN, (32 k t 1), 0) = 1
+T: (32 k t s), DOWN, (63 k t s) = 0.2
+R: (32 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (32 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (32 k t s), DOWN, (48 k t s) = 0.2
+R: (32 k t s), DOWN, (48 k t s), 0) = 1
+T: (32 k t s), DOWN, (63 k t s) = 0.2
+R: (32 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (32 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (32 k t s), DOWN, (63 k t s) = 0.06
+R: (32 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (32 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (32 k t s), DOWN, (41 k t s) = 0.13999999999999999
+R: (32 k t s), DOWN, (41 k t s), -1000) = 0.14285714285714288
+R: (32 k t s), DOWN, (41 k t s), -10) = 0.8571428571428572
+// action: RIGHT, new pos: (33), cell type: #
+T: (32 k t s), RIGHT, (63 k t s) = 1
+R: (32 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (32 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (33 0 0 0)
+S: (33 0 0 1)
+S: (33 0 1 0)
+S: (33 0 1 1)
+S: (33 1 0 0)
+S: (33 1 0 1)
+S: (33 1 1 0)
+S: (33 1 1 1)
+// action: UP, new pos: (25), cell type: #
+T: (33 k t s), UP, (63 k t s) = 1
+R: (33 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (33 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (41), cell type: R
+T: (33 k t s), DOWN, (63 k t s) = 0.3
+R: (33 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (33 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (33 k t s), DOWN, (41 k t s) = 0.7
+R: (33 k t s), DOWN, (41 k t s), -1000) = 0.14285714285714288
+R: (33 k t s), DOWN, (41 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (32), cell type: S
+T: (33 k t s), LEFT, (32 k t s) = 1
+R: (33 k t 0), LEFT, (32 k t 1), 25) = 1
+R: (33 k t 1), LEFT, (32 k t 1), 0) = 1
+// action: RIGHT, new pos: (34), cell type: #
+T: (33 k t s), RIGHT, (63 k t s) = 1
+R: (33 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (33 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (34 0 0 0)
+S: (34 0 0 1)
+S: (34 0 1 0)
+S: (34 0 1 1)
+S: (34 1 0 0)
+S: (34 1 0 1)
+S: (34 1 1 0)
+S: (34 1 1 1)
+// action: UP, new pos: (26), cell type: _
+T: (34 k t s), UP, (26 k t s) = 1
+R: (34 k t s), UP, (26 k t s), 0) = 1
+// action: DOWN, new pos: (42), cell type: _
+T: (34 k t s), DOWN, (42 k t s) = 1
+R: (34 k t s), DOWN, (42 k t s), 0) = 1
+// action: LEFT, new pos: (33), cell type: #
+T: (34 k t s), LEFT, (63 k t s) = 1
+R: (34 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (34 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (35), cell type: E
+T: (34 k t s), RIGHT, (35 k t s) = 1
+R: (34 k t 0), RIGHT, (35 k t 0), -10) = 0.7
+R: (34 k t 0), RIGHT, (35 k t 0), -1000) = 0.3
+R: (34 k t 1), RIGHT, (35 k t 1), 0) = 1
+S: (35 0 0 0)
+S: (35 0 0 1)
+S: (35 0 1 0)
+S: (35 0 1 1)
+S: (35 1 0 0)
+S: (35 1 0 1)
+S: (35 1 1 0)
+S: (35 1 1 1)
+// action: UP, new pos: (27), cell type: -
+T: (35 k t s), UP, (19 k t s) = 0.14285714285714285
+R: (35 k t s), UP, (19 k t s), 0) = 1
+T: (35 k t s), UP, (18 k t s) = 0.14285714285714285
+R: (35 k t 0), UP, (18 k t 0), -10) = 0.7
+R: (35 k t 0), UP, (18 k t 0), -1000) = 0.3
+R: (35 k t 1), UP, (18 k t 1), 0) = 1
+T: (35 k t s), UP, (20 k t s) = 0.14285714285714285
+R: (35 k t s), UP, (20 k t s), 0) = 1
+T: (35 k t s), UP, (35 k t s) = 0.14285714285714285
+R: (35 k t 0), UP, (35 k t 0), -10) = 0.7
+R: (35 k t 0), UP, (35 k t 0), -1000) = 0.3
+R: (35 k t 1), UP, (35 k t 1), 0) = 1
+T: (35 k t s), UP, (63 k t s) = 0.14285714285714285
+R: (35 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (35 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (35 k t s), UP, (63 k t s) = 0.14285714285714285
+R: (35 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (35 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (35 k t s), UP, (26 k t s) = 0.14285714285714285
+R: (35 k t s), UP, (26 k t s), 0) = 1
+// action: DOWN, new pos: (43), cell type: _
+T: (35 k t s), DOWN, (43 k t s) = 1
+R: (35 k t s), DOWN, (43 k t s), 0) = 1
+// action: LEFT, new pos: (34), cell type: #
+T: (35 k t s), LEFT, (63 k t s) = 1
+R: (35 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (35 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (36), cell type: #
+T: (35 k t s), RIGHT, (63 k t s) = 1
+R: (35 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (35 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (36 0 0 0)
+S: (36 0 0 1)
+S: (36 0 1 0)
+S: (36 0 1 1)
+S: (36 1 0 0)
+S: (36 1 0 1)
+S: (36 1 1 0)
+S: (36 1 1 1)
+// action: UP, new pos: (28), cell type: P
+T: (36 k t s), UP, (0 k t s) = 0.02564102564102564
+R: (36 0 t s), UP, (0 0 t s), 0) = 1
+R: (36 1 t s), UP, (0 1 t s), 100) = 1
+T: (36 k t s), UP, (1 k t s) = 0.02564102564102564
+R: (36 k t 0), UP, (1 k t 0), -10) = 0.7
+R: (36 k t 0), UP, (1 k t 0), -1000) = 0.3
+R: (36 k t 1), UP, (1 k t 1), 0) = 1
+T: (36 k t s), UP, (2 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (2 k t s), 0) = 1
+T: (36 k t s), UP, (3 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (3 k t s), 0) = 1
+T: (36 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (36 k t s), UP, (4 k t s) = 0.017948717948717947
+R: (36 k t s), UP, (4 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), UP, (4 k t s), -10) = 0.8571428571428572
+T: (36 k t s), UP, (6 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (6 k t s), -1000) = 1
+T: (36 k t s), UP, (7 k t s) = 0.02564102564102564
+R: (36 0 t s), UP, (7 1 t s), 50) = 1
+R: (36 1 t s), UP, (7 1 t s), 0) = 1
+T: (36 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (36 k t s), UP, (9 k t s) = 0.017948717948717947
+R: (36 k t s), UP, (9 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), UP, (9 k t s), -10) = 0.8571428571428572
+T: (36 k t s), UP, (13 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (13 k t s), -1000) = 1
+T: (36 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (36 k t s), UP, (15 k t s) = 0.017948717948717947
+R: (36 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (36 k t s), UP, (17 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (17 k t s), 0) = 1
+T: (36 k t s), UP, (18 k t s) = 0.02564102564102564
+R: (36 k t 0), UP, (18 k t 0), -10) = 0.7
+R: (36 k t 0), UP, (18 k t 0), -1000) = 0.3
+R: (36 k t 1), UP, (18 k t 1), 0) = 1
+T: (36 k t s), UP, (19 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (19 k t s), 0) = 1
+T: (36 k t s), UP, (20 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (20 k t s), 0) = 1
+T: (36 k t s), UP, (21 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (21 k t s), 0) = 1
+T: (36 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (36 k t s), UP, (23 k t s) = 0.017948717948717947
+R: (36 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (36 k t s), UP, (26 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (26 k t s), 0) = 1
+T: (36 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (36 k t s), UP, (30 k t s) = 0.017948717948717947
+R: (36 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+T: (36 k t s), UP, (31 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (31 k t s), 0) = 1
+T: (36 k t s), UP, (32 k t s) = 0.02564102564102564
+R: (36 k t 0), UP, (32 k t 1), 25) = 1
+R: (36 k t 1), UP, (32 k t 1), 0) = 1
+T: (36 k t s), UP, (35 k t s) = 0.02564102564102564
+R: (36 k t 0), UP, (35 k t 0), -10) = 0.7
+R: (36 k t 0), UP, (35 k t 0), -1000) = 0.3
+R: (36 k t 1), UP, (35 k t 1), 0) = 1
+T: (36 k t s), UP, (37 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (37 k t s), 0) = 1
+T: (36 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (36 k t s), UP, (41 k t s) = 0.017948717948717947
+R: (36 k t s), UP, (41 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), UP, (41 k t s), -10) = 0.8571428571428572
+T: (36 k t s), UP, (42 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (42 k t s), 0) = 1
+T: (36 k t s), UP, (43 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (43 k t s), 0) = 1
+T: (36 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (36 k t s), UP, (44 k t s) = 0.017948717948717947
+R: (36 k t s), UP, (44 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), UP, (44 k t s), -10) = 0.8571428571428572
+T: (36 k t s), UP, (46 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (46 k t s), -1000) = 1
+T: (36 k t s), UP, (48 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (48 k t s), 0) = 1
+T: (36 k t s), UP, (51 k t s) = 0.02564102564102564
+R: (36 k t 0), UP, (51 k t 0), -10) = 0.7
+R: (36 k t 0), UP, (51 k t 0), -1000) = 0.3
+R: (36 k t 1), UP, (51 k t 1), 0) = 1
+T: (36 k t s), UP, (53 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (53 k t s), 0) = 1
+T: (36 k t s), UP, (55 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (55 k t s), 0) = 1
+T: (36 k t s), UP, (56 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (56 k t s), 0) = 1
+T: (36 k t s), UP, (57 k t s) = 0.02564102564102564
+R: (36 k t 0), UP, (57 k t 0), -10) = 0.7
+R: (36 k t 0), UP, (57 k t 0), -1000) = 0.3
+R: (36 k t 1), UP, (57 k t 1), 0) = 1
+T: (36 k t s), UP, (58 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (58 k t s), 0) = 1
+T: (36 k t s), UP, (59 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (59 k t s), 0) = 1
+T: (36 k t s), UP, (60 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (60 k t s), 0) = 1
+T: (36 k t s), UP, (61 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (61 k t s), 0) = 1
+T: (36 k t s), UP, (62 k t s) = 0.02564102564102564
+R: (36 k t s), UP, (62 k t s), 0) = 1
+T: (36 k t s), UP, (63 k t s) = 0.02564102564102564
+R: (36 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (36 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (44), cell type: R
+T: (36 k t s), DOWN, (63 k t s) = 0.3
+R: (36 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (36 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (36 k t s), DOWN, (44 k t s) = 0.7
+R: (36 k t s), DOWN, (44 k t s), -1000) = 0.14285714285714288
+R: (36 k t s), DOWN, (44 k t s), -10) = 0.8571428571428572
+// action: LEFT, new pos: (35), cell type: E
+T: (36 k t s), LEFT, (35 k t s) = 1
+R: (36 k t 0), LEFT, (35 k t 0), -10) = 0.7
+R: (36 k t 0), LEFT, (35 k t 0), -1000) = 0.3
+R: (36 k t 1), LEFT, (35 k t 1), 0) = 1
+// action: RIGHT, new pos: (37), cell type: _
+T: (36 k t s), RIGHT, (37 k t s) = 1
+R: (36 k t s), RIGHT, (37 k t s), 0) = 1
+S: (37 0 0 0)
+S: (37 0 0 1)
+S: (37 0 1 0)
+S: (37 0 1 1)
+S: (37 1 0 0)
+S: (37 1 0 1)
+S: (37 1 1 0)
+S: (37 1 1 1)
+// action: UP, new pos: (29), cell type: -
+T: (37 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (21 k t s), 0) = 1
+T: (37 k t s), UP, (20 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (20 k t s), 0) = 1
+T: (37 k t s), UP, (37 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (37 k t s), 0) = 1
+T: (37 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (30 k t s) = 0.03684210526315789
+R: (37 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (37 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+T: (37 k t s), UP, (13 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (13 k t s), -1000) = 1
+T: (37 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (15 k t s) = 0.03684210526315789
+R: (37 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (37 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (37 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (30 k t s) = 0.03684210526315789
+R: (37 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (37 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+T: (37 k t s), UP, (31 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (31 k t s), 0) = 1
+T: (37 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (21 k t s), 0) = 1
+T: (37 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (23 k t s) = 0.03684210526315789
+R: (37 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (37 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (37 k t s), UP, (6 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (6 k t s), -1000) = 1
+T: (37 k t s), UP, (63 k t s) = 0.05263157894736842
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (7 k t s) = 0.05263157894736842
+R: (37 0 t s), UP, (7 1 t s), 50) = 1
+R: (37 1 t s), UP, (7 1 t s), 0) = 1
+T: (37 k t s), UP, (21 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (21 k t s), 0) = 1
+T: (37 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (23 k t s) = 0.03684210526315789
+R: (37 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (37 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (37 k t s), UP, (13 k t s) = 0.05263157894736842
+R: (37 k t s), UP, (13 k t s), -1000) = 1
+T: (37 k t s), UP, (63 k t s) = 0.015789473684210523
+R: (37 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (37 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (37 k t s), UP, (15 k t s) = 0.03684210526315789
+R: (37 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (37 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (45), cell type: -
+T: (37 k t s), DOWN, (37 k t s) = 0.125
+R: (37 k t s), DOWN, (37 k t s), 0) = 1
+T: (37 k t s), DOWN, (63 k t s) = 0.125
+R: (37 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (37 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (37 k t s), DOWN, (63 k t s) = 0.125
+R: (37 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (37 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (37 k t s), DOWN, (53 k t s) = 0.125
+R: (37 k t s), DOWN, (53 k t s), 0) = 1
+T: (37 k t s), DOWN, (63 k t s) = 0.125
+R: (37 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (37 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (37 k t s), DOWN, (63 k t s) = 0.125
+R: (37 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (37 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (37 k t s), DOWN, (63 k t s) = 0.0375
+R: (37 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (37 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (37 k t s), DOWN, (44 k t s) = 0.0875
+R: (37 k t s), DOWN, (44 k t s), -1000) = 0.14285714285714288
+R: (37 k t s), DOWN, (44 k t s), -10) = 0.8571428571428572
+T: (37 k t s), DOWN, (46 k t s) = 0.125
+R: (37 k t s), DOWN, (46 k t s), -1000) = 1
+// action: LEFT, new pos: (36), cell type: #
+T: (37 k t s), LEFT, (63 k t s) = 1
+R: (37 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (37 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (38), cell type: #
+T: (37 k t s), RIGHT, (63 k t s) = 1
+R: (37 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (37 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (38 0 0 0)
+S: (38 0 0 1)
+S: (38 0 1 0)
+S: (38 0 1 1)
+S: (38 1 0 0)
+S: (38 1 0 1)
+S: (38 1 1 0)
+S: (38 1 1 1)
+// action: UP, new pos: (30), cell type: R
+T: (38 k t s), UP, (63 k t s) = 0.3
+R: (38 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (38 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (38 k t s), UP, (30 k t s) = 0.7
+R: (38 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (38 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (46), cell type: C
+T: (38 k t s), DOWN, (46 k t s) = 1
+R: (38 k t s), DOWN, (46 k t s), -1000) = 1
+// action: LEFT, new pos: (37), cell type: _
+T: (38 k t s), LEFT, (37 k t s) = 1
+R: (38 k t s), LEFT, (37 k t s), 0) = 1
+// action: RIGHT, new pos: (39), cell type: #
+T: (38 k t s), RIGHT, (63 k t s) = 1
+R: (38 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (38 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (39 0 0 0)
+S: (39 0 0 1)
+S: (39 0 1 0)
+S: (39 0 1 1)
+S: (39 1 0 0)
+S: (39 1 0 1)
+S: (39 1 1 0)
+S: (39 1 1 1)
+// action: UP, new pos: (31), cell type: _
+T: (39 k t s), UP, (31 k t s) = 1
+R: (39 k t s), UP, (31 k t s), 0) = 1
+// action: DOWN, new pos: (47), cell type: P
+T: (39 k t s), DOWN, (0 k t s) = 0.02564102564102564
+R: (39 0 t s), DOWN, (0 0 t s), 0) = 1
+R: (39 1 t s), DOWN, (0 1 t s), 100) = 1
+T: (39 k t s), DOWN, (1 k t s) = 0.02564102564102564
+R: (39 k t 0), DOWN, (1 k t 0), -10) = 0.7
+R: (39 k t 0), DOWN, (1 k t 0), -1000) = 0.3
+R: (39 k t 1), DOWN, (1 k t 1), 0) = 1
+T: (39 k t s), DOWN, (2 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (2 k t s), 0) = 1
+T: (39 k t s), DOWN, (3 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (3 k t s), 0) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (39 k t s), DOWN, (4 k t s) = 0.017948717948717947
+R: (39 k t s), DOWN, (4 k t s), -1000) = 0.14285714285714288
+R: (39 k t s), DOWN, (4 k t s), -10) = 0.8571428571428572
+T: (39 k t s), DOWN, (6 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (6 k t s), -1000) = 1
+T: (39 k t s), DOWN, (7 k t s) = 0.02564102564102564
+R: (39 0 t s), DOWN, (7 1 t s), 50) = 1
+R: (39 1 t s), DOWN, (7 1 t s), 0) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (39 k t s), DOWN, (9 k t s) = 0.017948717948717947
+R: (39 k t s), DOWN, (9 k t s), -1000) = 0.14285714285714288
+R: (39 k t s), DOWN, (9 k t s), -10) = 0.8571428571428572
+T: (39 k t s), DOWN, (13 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (13 k t s), -1000) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (39 k t s), DOWN, (15 k t s) = 0.017948717948717947
+R: (39 k t s), DOWN, (15 k t s), -1000) = 0.14285714285714288
+R: (39 k t s), DOWN, (15 k t s), -10) = 0.8571428571428572
+T: (39 k t s), DOWN, (17 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (17 k t s), 0) = 1
+T: (39 k t s), DOWN, (18 k t s) = 0.02564102564102564
+R: (39 k t 0), DOWN, (18 k t 0), -10) = 0.7
+R: (39 k t 0), DOWN, (18 k t 0), -1000) = 0.3
+R: (39 k t 1), DOWN, (18 k t 1), 0) = 1
+T: (39 k t s), DOWN, (19 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (19 k t s), 0) = 1
+T: (39 k t s), DOWN, (20 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (20 k t s), 0) = 1
+T: (39 k t s), DOWN, (21 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (21 k t s), 0) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (39 k t s), DOWN, (23 k t s) = 0.017948717948717947
+R: (39 k t s), DOWN, (23 k t s), -1000) = 0.14285714285714288
+R: (39 k t s), DOWN, (23 k t s), -10) = 0.8571428571428572
+T: (39 k t s), DOWN, (26 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (26 k t s), 0) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (39 k t s), DOWN, (30 k t s) = 0.017948717948717947
+R: (39 k t s), DOWN, (30 k t s), -1000) = 0.14285714285714288
+R: (39 k t s), DOWN, (30 k t s), -10) = 0.8571428571428572
+T: (39 k t s), DOWN, (31 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (31 k t s), 0) = 1
+T: (39 k t s), DOWN, (32 k t s) = 0.02564102564102564
+R: (39 k t 0), DOWN, (32 k t 1), 25) = 1
+R: (39 k t 1), DOWN, (32 k t 1), 0) = 1
+T: (39 k t s), DOWN, (35 k t s) = 0.02564102564102564
+R: (39 k t 0), DOWN, (35 k t 0), -10) = 0.7
+R: (39 k t 0), DOWN, (35 k t 0), -1000) = 0.3
+R: (39 k t 1), DOWN, (35 k t 1), 0) = 1
+T: (39 k t s), DOWN, (37 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (37 k t s), 0) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (39 k t s), DOWN, (41 k t s) = 0.017948717948717947
+R: (39 k t s), DOWN, (41 k t s), -1000) = 0.14285714285714288
+R: (39 k t s), DOWN, (41 k t s), -10) = 0.8571428571428572
+T: (39 k t s), DOWN, (42 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (42 k t s), 0) = 1
+T: (39 k t s), DOWN, (43 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (43 k t s), 0) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.007692307692307692
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+T: (39 k t s), DOWN, (44 k t s) = 0.017948717948717947
+R: (39 k t s), DOWN, (44 k t s), -1000) = 0.14285714285714288
+R: (39 k t s), DOWN, (44 k t s), -10) = 0.8571428571428572
+T: (39 k t s), DOWN, (46 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (46 k t s), -1000) = 1
+T: (39 k t s), DOWN, (48 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (48 k t s), 0) = 1
+T: (39 k t s), DOWN, (51 k t s) = 0.02564102564102564
+R: (39 k t 0), DOWN, (51 k t 0), -10) = 0.7
+R: (39 k t 0), DOWN, (51 k t 0), -1000) = 0.3
+R: (39 k t 1), DOWN, (51 k t 1), 0) = 1
+T: (39 k t s), DOWN, (53 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (53 k t s), 0) = 1
+T: (39 k t s), DOWN, (55 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (55 k t s), 0) = 1
+T: (39 k t s), DOWN, (56 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (56 k t s), 0) = 1
+T: (39 k t s), DOWN, (57 k t s) = 0.02564102564102564
+R: (39 k t 0), DOWN, (57 k t 0), -10) = 0.7
+R: (39 k t 0), DOWN, (57 k t 0), -1000) = 0.3
+R: (39 k t 1), DOWN, (57 k t 1), 0) = 1
+T: (39 k t s), DOWN, (58 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (58 k t s), 0) = 1
+T: (39 k t s), DOWN, (59 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (59 k t s), 0) = 1
+T: (39 k t s), DOWN, (60 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (60 k t s), 0) = 1
+T: (39 k t s), DOWN, (61 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (61 k t s), 0) = 1
+T: (39 k t s), DOWN, (62 k t s) = 0.02564102564102564
+R: (39 k t s), DOWN, (62 k t s), 0) = 1
+T: (39 k t s), DOWN, (63 k t s) = 0.02564102564102564
+R: (39 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (39 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (38), cell type: #
+T: (39 k t s), LEFT, (63 k t s) = 1
+R: (39 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (39 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+S: (40 0 0 0)
+S: (40 0 0 1)
+S: (40 0 1 0)
+S: (40 0 1 1)
+S: (40 1 0 0)
+S: (40 1 0 1)
+S: (40 1 1 0)
+S: (40 1 1 1)
+// action: UP, new pos: (32), cell type: S
+T: (40 k t s), UP, (32 k t s) = 1
+R: (40 k t 0), UP, (32 k t 1), 25) = 1
+R: (40 k t 1), UP, (32 k t 1), 0) = 1
+// action: DOWN, new pos: (48), cell type: _
+T: (40 k t s), DOWN, (48 k t s) = 1
+R: (40 k t s), DOWN, (48 k t s), 0) = 1
+// action: RIGHT, new pos: (41), cell type: R
+T: (40 k t s), RIGHT, (63 k t s) = 0.3
+R: (40 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (40 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (40 k t s), RIGHT, (41 k t s) = 0.7
+R: (40 k t s), RIGHT, (41 k t s), -1000) = 0.14285714285714288
+R: (40 k t s), RIGHT, (41 k t s), -10) = 0.8571428571428572
+S: (41 0 0 0)
+S: (41 0 0 1)
+S: (41 0 1 0)
+S: (41 0 1 1)
+S: (41 1 0 0)
+S: (41 1 0 1)
+S: (41 1 1 0)
+S: (41 1 1 1)
+// action: UP, new pos: (33), cell type: #
+T: (41 k t s), UP, (63 k t s) = 1
+R: (41 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (41 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (49), cell type: #
+T: (41 k t s), DOWN, (63 k t s) = 1
+R: (41 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (41 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (40), cell type: -
+T: (41 k t s), LEFT, (32 k t s) = 0.2
+R: (41 k t 0), LEFT, (32 k t 1), 25) = 1
+R: (41 k t 1), LEFT, (32 k t 1), 0) = 1
+T: (41 k t s), LEFT, (63 k t s) = 0.2
+R: (41 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (41 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (41 k t s), LEFT, (48 k t s) = 0.2
+R: (41 k t s), LEFT, (48 k t s), 0) = 1
+T: (41 k t s), LEFT, (63 k t s) = 0.2
+R: (41 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (41 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (41 k t s), LEFT, (63 k t s) = 0.06
+R: (41 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (41 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (41 k t s), LEFT, (41 k t s) = 0.13999999999999999
+R: (41 k t s), LEFT, (41 k t s), -1000) = 0.14285714285714288
+R: (41 k t s), LEFT, (41 k t s), -10) = 0.8571428571428572
+// action: RIGHT, new pos: (42), cell type: _
+T: (41 k t s), RIGHT, (42 k t s) = 1
+R: (41 k t s), RIGHT, (42 k t s), 0) = 1
+S: (42 0 0 0)
+S: (42 0 0 1)
+S: (42 0 1 0)
+S: (42 0 1 1)
+S: (42 1 0 0)
+S: (42 1 0 1)
+S: (42 1 1 0)
+S: (42 1 1 1)
+// action: UP, new pos: (34), cell type: #
+T: (42 k t s), UP, (63 k t s) = 1
+R: (42 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (42 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (50), cell type: #
+T: (42 k t s), DOWN, (63 k t s) = 1
+R: (42 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (42 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (41), cell type: R
+T: (42 k t s), LEFT, (63 k t s) = 0.3
+R: (42 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (42 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (42 k t s), LEFT, (41 k t s) = 0.7
+R: (42 k t s), LEFT, (41 k t s), -1000) = 0.14285714285714288
+R: (42 k t s), LEFT, (41 k t s), -10) = 0.8571428571428572
+// action: RIGHT, new pos: (43), cell type: _
+T: (42 k t s), RIGHT, (43 k t s) = 1
+R: (42 k t s), RIGHT, (43 k t s), 0) = 1
+S: (43 0 0 0)
+S: (43 0 0 1)
+S: (43 0 1 0)
+S: (43 0 1 1)
+S: (43 1 0 0)
+S: (43 1 0 1)
+S: (43 1 1 0)
+S: (43 1 1 1)
+// action: UP, new pos: (35), cell type: E
+T: (43 k t s), UP, (35 k t s) = 1
+R: (43 k t 0), UP, (35 k t 0), -10) = 0.7
+R: (43 k t 0), UP, (35 k t 0), -1000) = 0.3
+R: (43 k t 1), UP, (35 k t 1), 0) = 1
+// action: DOWN, new pos: (51), cell type: E
+T: (43 k t s), DOWN, (51 k t s) = 1
+R: (43 k t 0), DOWN, (51 k t 0), -10) = 0.7
+R: (43 k t 0), DOWN, (51 k t 0), -1000) = 0.3
+R: (43 k t 1), DOWN, (51 k t 1), 0) = 1
+// action: LEFT, new pos: (42), cell type: _
+T: (43 k t s), LEFT, (42 k t s) = 1
+R: (43 k t s), LEFT, (42 k t s), 0) = 1
+// action: RIGHT, new pos: (44), cell type: R
+T: (43 k t s), RIGHT, (63 k t s) = 0.3
+R: (43 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (43 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (43 k t s), RIGHT, (44 k t s) = 0.7
+R: (43 k t s), RIGHT, (44 k t s), -1000) = 0.14285714285714288
+R: (43 k t s), RIGHT, (44 k t s), -10) = 0.8571428571428572
+S: (44 0 0 0)
+S: (44 0 0 1)
+S: (44 0 1 0)
+S: (44 0 1 1)
+S: (44 1 0 0)
+S: (44 1 0 1)
+S: (44 1 1 0)
+S: (44 1 1 1)
+// action: UP, new pos: (36), cell type: #
+T: (44 k t s), UP, (63 k t s) = 1
+R: (44 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (44 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (52), cell type: #
+T: (44 k t s), DOWN, (63 k t s) = 1
+R: (44 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (44 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (43), cell type: _
+T: (44 k t s), LEFT, (43 k t s) = 1
+R: (44 k t s), LEFT, (43 k t s), 0) = 1
+// action: RIGHT, new pos: (45), cell type: -
+T: (44 k t s), RIGHT, (37 k t s) = 0.125
+R: (44 k t s), RIGHT, (37 k t s), 0) = 1
+T: (44 k t s), RIGHT, (63 k t s) = 0.125
+R: (44 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (44 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (44 k t s), RIGHT, (63 k t s) = 0.125
+R: (44 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (44 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (44 k t s), RIGHT, (53 k t s) = 0.125
+R: (44 k t s), RIGHT, (53 k t s), 0) = 1
+T: (44 k t s), RIGHT, (63 k t s) = 0.125
+R: (44 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (44 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (44 k t s), RIGHT, (63 k t s) = 0.125
+R: (44 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (44 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (44 k t s), RIGHT, (63 k t s) = 0.0375
+R: (44 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (44 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (44 k t s), RIGHT, (44 k t s) = 0.0875
+R: (44 k t s), RIGHT, (44 k t s), -1000) = 0.14285714285714288
+R: (44 k t s), RIGHT, (44 k t s), -10) = 0.8571428571428572
+T: (44 k t s), RIGHT, (46 k t s) = 0.125
+R: (44 k t s), RIGHT, (46 k t s), -1000) = 1
+S: (45 0 0 0)
+S: (45 0 0 1)
+S: (45 0 1 0)
+S: (45 0 1 1)
+S: (45 1 0 0)
+S: (45 1 0 1)
+S: (45 1 1 0)
+S: (45 1 1 1)
+// action: UP, new pos: (37), cell type: _
+T: (45 k t s), UP, (37 k t s) = 1
+R: (45 k t s), UP, (37 k t s), 0) = 1
+// action: DOWN, new pos: (53), cell type: _
+T: (45 k t s), DOWN, (53 k t s) = 1
+R: (45 k t s), DOWN, (53 k t s), 0) = 1
+// action: LEFT, new pos: (44), cell type: R
+T: (45 k t s), LEFT, (63 k t s) = 0.3
+R: (45 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (45 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (45 k t s), LEFT, (44 k t s) = 0.7
+R: (45 k t s), LEFT, (44 k t s), -1000) = 0.14285714285714288
+R: (45 k t s), LEFT, (44 k t s), -10) = 0.8571428571428572
+// action: RIGHT, new pos: (46), cell type: C
+T: (45 k t s), RIGHT, (46 k t s) = 1
+R: (45 k t s), RIGHT, (46 k t s), -1000) = 1
+S: (46 0 0 0)
+S: (46 0 0 1)
+S: (46 0 1 0)
+S: (46 0 1 1)
+S: (46 1 0 0)
+S: (46 1 0 1)
+S: (46 1 1 0)
+S: (46 1 1 1)
+// action: UP, new pos: (38), cell type: #
+T: (46 k t s), UP, (63 k t s) = 1
+R: (46 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (46 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (54), cell type: #
+T: (46 k t s), DOWN, (63 k t s) = 1
+R: (46 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (46 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (45), cell type: -
+T: (46 k t s), LEFT, (37 k t s) = 0.125
+R: (46 k t s), LEFT, (37 k t s), 0) = 1
+T: (46 k t s), LEFT, (63 k t s) = 0.125
+R: (46 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (46 k t s), LEFT, (63 k t s) = 0.125
+R: (46 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (46 k t s), LEFT, (53 k t s) = 0.125
+R: (46 k t s), LEFT, (53 k t s), 0) = 1
+T: (46 k t s), LEFT, (63 k t s) = 0.125
+R: (46 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (46 k t s), LEFT, (63 k t s) = 0.125
+R: (46 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (46 k t s), LEFT, (63 k t s) = 0.0375
+R: (46 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+T: (46 k t s), LEFT, (44 k t s) = 0.0875
+R: (46 k t s), LEFT, (44 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), LEFT, (44 k t s), -10) = 0.8571428571428572
+T: (46 k t s), LEFT, (46 k t s) = 0.125
+R: (46 k t s), LEFT, (46 k t s), -1000) = 1
+// action: RIGHT, new pos: (47), cell type: P
+T: (46 k t s), RIGHT, (0 k t s) = 0.02564102564102564
+R: (46 0 t s), RIGHT, (0 0 t s), 0) = 1
+R: (46 1 t s), RIGHT, (0 1 t s), 100) = 1
+T: (46 k t s), RIGHT, (1 k t s) = 0.02564102564102564
+R: (46 k t 0), RIGHT, (1 k t 0), -10) = 0.7
+R: (46 k t 0), RIGHT, (1 k t 0), -1000) = 0.3
+R: (46 k t 1), RIGHT, (1 k t 1), 0) = 1
+T: (46 k t s), RIGHT, (2 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (2 k t s), 0) = 1
+T: (46 k t s), RIGHT, (3 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (3 k t s), 0) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (46 k t s), RIGHT, (4 k t s) = 0.017948717948717947
+R: (46 k t s), RIGHT, (4 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), RIGHT, (4 k t s), -10) = 0.8571428571428572
+T: (46 k t s), RIGHT, (6 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (6 k t s), -1000) = 1
+T: (46 k t s), RIGHT, (7 k t s) = 0.02564102564102564
+R: (46 0 t s), RIGHT, (7 1 t s), 50) = 1
+R: (46 1 t s), RIGHT, (7 1 t s), 0) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (46 k t s), RIGHT, (9 k t s) = 0.017948717948717947
+R: (46 k t s), RIGHT, (9 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), RIGHT, (9 k t s), -10) = 0.8571428571428572
+T: (46 k t s), RIGHT, (13 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (13 k t s), -1000) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (46 k t s), RIGHT, (15 k t s) = 0.017948717948717947
+R: (46 k t s), RIGHT, (15 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), RIGHT, (15 k t s), -10) = 0.8571428571428572
+T: (46 k t s), RIGHT, (17 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (17 k t s), 0) = 1
+T: (46 k t s), RIGHT, (18 k t s) = 0.02564102564102564
+R: (46 k t 0), RIGHT, (18 k t 0), -10) = 0.7
+R: (46 k t 0), RIGHT, (18 k t 0), -1000) = 0.3
+R: (46 k t 1), RIGHT, (18 k t 1), 0) = 1
+T: (46 k t s), RIGHT, (19 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (19 k t s), 0) = 1
+T: (46 k t s), RIGHT, (20 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (20 k t s), 0) = 1
+T: (46 k t s), RIGHT, (21 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (21 k t s), 0) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (46 k t s), RIGHT, (23 k t s) = 0.017948717948717947
+R: (46 k t s), RIGHT, (23 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), RIGHT, (23 k t s), -10) = 0.8571428571428572
+T: (46 k t s), RIGHT, (26 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (26 k t s), 0) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (46 k t s), RIGHT, (30 k t s) = 0.017948717948717947
+R: (46 k t s), RIGHT, (30 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), RIGHT, (30 k t s), -10) = 0.8571428571428572
+T: (46 k t s), RIGHT, (31 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (31 k t s), 0) = 1
+T: (46 k t s), RIGHT, (32 k t s) = 0.02564102564102564
+R: (46 k t 0), RIGHT, (32 k t 1), 25) = 1
+R: (46 k t 1), RIGHT, (32 k t 1), 0) = 1
+T: (46 k t s), RIGHT, (35 k t s) = 0.02564102564102564
+R: (46 k t 0), RIGHT, (35 k t 0), -10) = 0.7
+R: (46 k t 0), RIGHT, (35 k t 0), -1000) = 0.3
+R: (46 k t 1), RIGHT, (35 k t 1), 0) = 1
+T: (46 k t s), RIGHT, (37 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (37 k t s), 0) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (46 k t s), RIGHT, (41 k t s) = 0.017948717948717947
+R: (46 k t s), RIGHT, (41 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), RIGHT, (41 k t s), -10) = 0.8571428571428572
+T: (46 k t s), RIGHT, (42 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (42 k t s), 0) = 1
+T: (46 k t s), RIGHT, (43 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (43 k t s), 0) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.007692307692307692
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+T: (46 k t s), RIGHT, (44 k t s) = 0.017948717948717947
+R: (46 k t s), RIGHT, (44 k t s), -1000) = 0.14285714285714288
+R: (46 k t s), RIGHT, (44 k t s), -10) = 0.8571428571428572
+T: (46 k t s), RIGHT, (46 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (46 k t s), -1000) = 1
+T: (46 k t s), RIGHT, (48 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (48 k t s), 0) = 1
+T: (46 k t s), RIGHT, (51 k t s) = 0.02564102564102564
+R: (46 k t 0), RIGHT, (51 k t 0), -10) = 0.7
+R: (46 k t 0), RIGHT, (51 k t 0), -1000) = 0.3
+R: (46 k t 1), RIGHT, (51 k t 1), 0) = 1
+T: (46 k t s), RIGHT, (53 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (53 k t s), 0) = 1
+T: (46 k t s), RIGHT, (55 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (55 k t s), 0) = 1
+T: (46 k t s), RIGHT, (56 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (56 k t s), 0) = 1
+T: (46 k t s), RIGHT, (57 k t s) = 0.02564102564102564
+R: (46 k t 0), RIGHT, (57 k t 0), -10) = 0.7
+R: (46 k t 0), RIGHT, (57 k t 0), -1000) = 0.3
+R: (46 k t 1), RIGHT, (57 k t 1), 0) = 1
+T: (46 k t s), RIGHT, (58 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (58 k t s), 0) = 1
+T: (46 k t s), RIGHT, (59 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (59 k t s), 0) = 1
+T: (46 k t s), RIGHT, (60 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (60 k t s), 0) = 1
+T: (46 k t s), RIGHT, (61 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (61 k t s), 0) = 1
+T: (46 k t s), RIGHT, (62 k t s) = 0.02564102564102564
+R: (46 k t s), RIGHT, (62 k t s), 0) = 1
+T: (46 k t s), RIGHT, (63 k t s) = 0.02564102564102564
+R: (46 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (46 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (47 0 0 0)
+S: (47 0 0 1)
+S: (47 0 1 0)
+S: (47 0 1 1)
+S: (47 1 0 0)
+S: (47 1 0 1)
+S: (47 1 1 0)
+S: (47 1 1 1)
+// action: UP, new pos: (39), cell type: #
+T: (47 k t s), UP, (63 k t s) = 1
+R: (47 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (47 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (55), cell type: _
+T: (47 k t s), DOWN, (55 k t s) = 1
+R: (47 k t s), DOWN, (55 k t s), 0) = 1
+// action: LEFT, new pos: (46), cell type: C
+T: (47 k t s), LEFT, (46 k t s) = 1
+R: (47 k t s), LEFT, (46 k t s), -1000) = 1
+S: (48 0 0 0)
+S: (48 0 0 1)
+S: (48 0 1 0)
+S: (48 0 1 1)
+S: (48 1 0 0)
+S: (48 1 0 1)
+S: (48 1 1 0)
+S: (48 1 1 1)
+// action: UP, new pos: (40), cell type: -
+T: (48 k t s), UP, (32 k t s) = 0.2
+R: (48 k t 0), UP, (32 k t 1), 25) = 1
+R: (48 k t 1), UP, (32 k t 1), 0) = 1
+T: (48 k t s), UP, (63 k t s) = 0.2
+R: (48 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (48 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (48 k t s), UP, (48 k t s) = 0.2
+R: (48 k t s), UP, (48 k t s), 0) = 1
+T: (48 k t s), UP, (63 k t s) = 0.2
+R: (48 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (48 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (48 k t s), UP, (63 k t s) = 0.06
+R: (48 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (48 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (48 k t s), UP, (41 k t s) = 0.13999999999999999
+R: (48 k t s), UP, (41 k t s), -1000) = 0.14285714285714288
+R: (48 k t s), UP, (41 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (56), cell type: _
+T: (48 k t s), DOWN, (56 k t s) = 1
+R: (48 k t s), DOWN, (56 k t s), 0) = 1
+// action: RIGHT, new pos: (49), cell type: #
+T: (48 k t s), RIGHT, (63 k t s) = 1
+R: (48 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (48 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (49 0 0 0)
+S: (49 0 0 1)
+S: (49 0 1 0)
+S: (49 0 1 1)
+S: (49 1 0 0)
+S: (49 1 0 1)
+S: (49 1 1 0)
+S: (49 1 1 1)
+// action: UP, new pos: (41), cell type: R
+T: (49 k t s), UP, (63 k t s) = 0.3
+R: (49 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (49 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (49 k t s), UP, (41 k t s) = 0.7
+R: (49 k t s), UP, (41 k t s), -1000) = 0.14285714285714288
+R: (49 k t s), UP, (41 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (57), cell type: E
+T: (49 k t s), DOWN, (57 k t s) = 1
+R: (49 k t 0), DOWN, (57 k t 0), -10) = 0.7
+R: (49 k t 0), DOWN, (57 k t 0), -1000) = 0.3
+R: (49 k t 1), DOWN, (57 k t 1), 0) = 1
+// action: LEFT, new pos: (48), cell type: _
+T: (49 k t s), LEFT, (48 k t s) = 1
+R: (49 k t s), LEFT, (48 k t s), 0) = 1
+// action: RIGHT, new pos: (50), cell type: #
+T: (49 k t s), RIGHT, (63 k t s) = 1
+R: (49 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (49 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (50 0 0 0)
+S: (50 0 0 1)
+S: (50 0 1 0)
+S: (50 0 1 1)
+S: (50 1 0 0)
+S: (50 1 0 1)
+S: (50 1 1 0)
+S: (50 1 1 1)
+// action: UP, new pos: (42), cell type: _
+T: (50 k t s), UP, (42 k t s) = 1
+R: (50 k t s), UP, (42 k t s), 0) = 1
+// action: DOWN, new pos: (58), cell type: _
+T: (50 k t s), DOWN, (58 k t s) = 1
+R: (50 k t s), DOWN, (58 k t s), 0) = 1
+// action: LEFT, new pos: (49), cell type: #
+T: (50 k t s), LEFT, (63 k t s) = 1
+R: (50 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (50 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (51), cell type: E
+T: (50 k t s), RIGHT, (51 k t s) = 1
+R: (50 k t 0), RIGHT, (51 k t 0), -10) = 0.7
+R: (50 k t 0), RIGHT, (51 k t 0), -1000) = 0.3
+R: (50 k t 1), RIGHT, (51 k t 1), 0) = 1
+S: (51 0 0 0)
+S: (51 0 0 1)
+S: (51 0 1 0)
+S: (51 0 1 1)
+S: (51 1 0 0)
+S: (51 1 0 1)
+S: (51 1 1 0)
+S: (51 1 1 1)
+// action: UP, new pos: (43), cell type: _
+T: (51 k t s), UP, (43 k t s) = 1
+R: (51 k t s), UP, (43 k t s), 0) = 1
+// action: DOWN, new pos: (59), cell type: _
+T: (51 k t s), DOWN, (59 k t s) = 1
+R: (51 k t s), DOWN, (59 k t s), 0) = 1
+// action: LEFT, new pos: (50), cell type: #
+T: (51 k t s), LEFT, (63 k t s) = 1
+R: (51 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (51 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (52), cell type: #
+T: (51 k t s), RIGHT, (63 k t s) = 1
+R: (51 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (51 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (52 0 0 0)
+S: (52 0 0 1)
+S: (52 0 1 0)
+S: (52 0 1 1)
+S: (52 1 0 0)
+S: (52 1 0 1)
+S: (52 1 1 0)
+S: (52 1 1 1)
+// action: UP, new pos: (44), cell type: R
+T: (52 k t s), UP, (63 k t s) = 0.3
+R: (52 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (52 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (52 k t s), UP, (44 k t s) = 0.7
+R: (52 k t s), UP, (44 k t s), -1000) = 0.14285714285714288
+R: (52 k t s), UP, (44 k t s), -10) = 0.8571428571428572
+// action: DOWN, new pos: (60), cell type: _
+T: (52 k t s), DOWN, (60 k t s) = 1
+R: (52 k t s), DOWN, (60 k t s), 0) = 1
+// action: LEFT, new pos: (51), cell type: E
+T: (52 k t s), LEFT, (51 k t s) = 1
+R: (52 k t 0), LEFT, (51 k t 0), -10) = 0.7
+R: (52 k t 0), LEFT, (51 k t 0), -1000) = 0.3
+R: (52 k t 1), LEFT, (51 k t 1), 0) = 1
+// action: RIGHT, new pos: (53), cell type: _
+T: (52 k t s), RIGHT, (53 k t s) = 1
+R: (52 k t s), RIGHT, (53 k t s), 0) = 1
+S: (53 0 0 0)
+S: (53 0 0 1)
+S: (53 0 1 0)
+S: (53 0 1 1)
+S: (53 1 0 0)
+S: (53 1 0 1)
+S: (53 1 1 0)
+S: (53 1 1 1)
+// action: UP, new pos: (45), cell type: -
+T: (53 k t s), UP, (37 k t s) = 0.125
+R: (53 k t s), UP, (37 k t s), 0) = 1
+T: (53 k t s), UP, (63 k t s) = 0.125
+R: (53 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (53 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (53 k t s), UP, (63 k t s) = 0.125
+R: (53 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (53 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (53 k t s), UP, (53 k t s) = 0.125
+R: (53 k t s), UP, (53 k t s), 0) = 1
+T: (53 k t s), UP, (63 k t s) = 0.125
+R: (53 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (53 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (53 k t s), UP, (63 k t s) = 0.125
+R: (53 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (53 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (53 k t s), UP, (63 k t s) = 0.0375
+R: (53 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (53 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (53 k t s), UP, (44 k t s) = 0.0875
+R: (53 k t s), UP, (44 k t s), -1000) = 0.14285714285714288
+R: (53 k t s), UP, (44 k t s), -10) = 0.8571428571428572
+T: (53 k t s), UP, (46 k t s) = 0.125
+R: (53 k t s), UP, (46 k t s), -1000) = 1
+// action: DOWN, new pos: (61), cell type: _
+T: (53 k t s), DOWN, (61 k t s) = 1
+R: (53 k t s), DOWN, (61 k t s), 0) = 1
+// action: LEFT, new pos: (52), cell type: #
+T: (53 k t s), LEFT, (63 k t s) = 1
+R: (53 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (53 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+// action: RIGHT, new pos: (54), cell type: #
+T: (53 k t s), RIGHT, (63 k t s) = 1
+R: (53 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (53 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (54 0 0 0)
+S: (54 0 0 1)
+S: (54 0 1 0)
+S: (54 0 1 1)
+S: (54 1 0 0)
+S: (54 1 0 1)
+S: (54 1 1 0)
+S: (54 1 1 1)
+// action: UP, new pos: (46), cell type: C
+T: (54 k t s), UP, (46 k t s) = 1
+R: (54 k t s), UP, (46 k t s), -1000) = 1
+// action: DOWN, new pos: (62), cell type: _
+T: (54 k t s), DOWN, (62 k t s) = 1
+R: (54 k t s), DOWN, (62 k t s), 0) = 1
+// action: LEFT, new pos: (53), cell type: _
+T: (54 k t s), LEFT, (53 k t s) = 1
+R: (54 k t s), LEFT, (53 k t s), 0) = 1
+// action: RIGHT, new pos: (55), cell type: _
+T: (54 k t s), RIGHT, (55 k t s) = 1
+R: (54 k t s), RIGHT, (55 k t s), 0) = 1
+S: (55 0 0 0)
+S: (55 0 0 1)
+S: (55 0 1 0)
+S: (55 0 1 1)
+S: (55 1 0 0)
+S: (55 1 0 1)
+S: (55 1 1 0)
+S: (55 1 1 1)
+// action: UP, new pos: (47), cell type: P
+T: (55 k t s), UP, (0 k t s) = 0.02564102564102564
+R: (55 0 t s), UP, (0 0 t s), 0) = 1
+R: (55 1 t s), UP, (0 1 t s), 100) = 1
+T: (55 k t s), UP, (1 k t s) = 0.02564102564102564
+R: (55 k t 0), UP, (1 k t 0), -10) = 0.7
+R: (55 k t 0), UP, (1 k t 0), -1000) = 0.3
+R: (55 k t 1), UP, (1 k t 1), 0) = 1
+T: (55 k t s), UP, (2 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (2 k t s), 0) = 1
+T: (55 k t s), UP, (3 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (3 k t s), 0) = 1
+T: (55 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (55 k t s), UP, (4 k t s) = 0.017948717948717947
+R: (55 k t s), UP, (4 k t s), -1000) = 0.14285714285714288
+R: (55 k t s), UP, (4 k t s), -10) = 0.8571428571428572
+T: (55 k t s), UP, (6 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (6 k t s), -1000) = 1
+T: (55 k t s), UP, (7 k t s) = 0.02564102564102564
+R: (55 0 t s), UP, (7 1 t s), 50) = 1
+R: (55 1 t s), UP, (7 1 t s), 0) = 1
+T: (55 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (55 k t s), UP, (9 k t s) = 0.017948717948717947
+R: (55 k t s), UP, (9 k t s), -1000) = 0.14285714285714288
+R: (55 k t s), UP, (9 k t s), -10) = 0.8571428571428572
+T: (55 k t s), UP, (13 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (13 k t s), -1000) = 1
+T: (55 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (55 k t s), UP, (15 k t s) = 0.017948717948717947
+R: (55 k t s), UP, (15 k t s), -1000) = 0.14285714285714288
+R: (55 k t s), UP, (15 k t s), -10) = 0.8571428571428572
+T: (55 k t s), UP, (17 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (17 k t s), 0) = 1
+T: (55 k t s), UP, (18 k t s) = 0.02564102564102564
+R: (55 k t 0), UP, (18 k t 0), -10) = 0.7
+R: (55 k t 0), UP, (18 k t 0), -1000) = 0.3
+R: (55 k t 1), UP, (18 k t 1), 0) = 1
+T: (55 k t s), UP, (19 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (19 k t s), 0) = 1
+T: (55 k t s), UP, (20 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (20 k t s), 0) = 1
+T: (55 k t s), UP, (21 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (21 k t s), 0) = 1
+T: (55 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (55 k t s), UP, (23 k t s) = 0.017948717948717947
+R: (55 k t s), UP, (23 k t s), -1000) = 0.14285714285714288
+R: (55 k t s), UP, (23 k t s), -10) = 0.8571428571428572
+T: (55 k t s), UP, (26 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (26 k t s), 0) = 1
+T: (55 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (55 k t s), UP, (30 k t s) = 0.017948717948717947
+R: (55 k t s), UP, (30 k t s), -1000) = 0.14285714285714288
+R: (55 k t s), UP, (30 k t s), -10) = 0.8571428571428572
+T: (55 k t s), UP, (31 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (31 k t s), 0) = 1
+T: (55 k t s), UP, (32 k t s) = 0.02564102564102564
+R: (55 k t 0), UP, (32 k t 1), 25) = 1
+R: (55 k t 1), UP, (32 k t 1), 0) = 1
+T: (55 k t s), UP, (35 k t s) = 0.02564102564102564
+R: (55 k t 0), UP, (35 k t 0), -10) = 0.7
+R: (55 k t 0), UP, (35 k t 0), -1000) = 0.3
+R: (55 k t 1), UP, (35 k t 1), 0) = 1
+T: (55 k t s), UP, (37 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (37 k t s), 0) = 1
+T: (55 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (55 k t s), UP, (41 k t s) = 0.017948717948717947
+R: (55 k t s), UP, (41 k t s), -1000) = 0.14285714285714288
+R: (55 k t s), UP, (41 k t s), -10) = 0.8571428571428572
+T: (55 k t s), UP, (42 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (42 k t s), 0) = 1
+T: (55 k t s), UP, (43 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (43 k t s), 0) = 1
+T: (55 k t s), UP, (63 k t s) = 0.007692307692307692
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+T: (55 k t s), UP, (44 k t s) = 0.017948717948717947
+R: (55 k t s), UP, (44 k t s), -1000) = 0.14285714285714288
+R: (55 k t s), UP, (44 k t s), -10) = 0.8571428571428572
+T: (55 k t s), UP, (46 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (46 k t s), -1000) = 1
+T: (55 k t s), UP, (48 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (48 k t s), 0) = 1
+T: (55 k t s), UP, (51 k t s) = 0.02564102564102564
+R: (55 k t 0), UP, (51 k t 0), -10) = 0.7
+R: (55 k t 0), UP, (51 k t 0), -1000) = 0.3
+R: (55 k t 1), UP, (51 k t 1), 0) = 1
+T: (55 k t s), UP, (53 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (53 k t s), 0) = 1
+T: (55 k t s), UP, (55 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (55 k t s), 0) = 1
+T: (55 k t s), UP, (56 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (56 k t s), 0) = 1
+T: (55 k t s), UP, (57 k t s) = 0.02564102564102564
+R: (55 k t 0), UP, (57 k t 0), -10) = 0.7
+R: (55 k t 0), UP, (57 k t 0), -1000) = 0.3
+R: (55 k t 1), UP, (57 k t 1), 0) = 1
+T: (55 k t s), UP, (58 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (58 k t s), 0) = 1
+T: (55 k t s), UP, (59 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (59 k t s), 0) = 1
+T: (55 k t s), UP, (60 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (60 k t s), 0) = 1
+T: (55 k t s), UP, (61 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (61 k t s), 0) = 1
+T: (55 k t s), UP, (62 k t s) = 0.02564102564102564
+R: (55 k t s), UP, (62 k t s), 0) = 1
+T: (55 k t s), UP, (63 k t s) = 0.02564102564102564
+R: (55 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (55 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: DOWN, new pos: (63), cell type: o
+T: (55 k t s), DOWN, (63 k t s) = 1
+R: (55 k 0 s), DOWN, (63 k 0 s), -5) = 1
+R: (55 k 1 s), DOWN, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (54), cell type: #
+T: (55 k t s), LEFT, (63 k t s) = 1
+R: (55 k 0 s), LEFT, (63 k 0 s), -5) = 1
+R: (55 k 1 s), LEFT, (63 k 1 s), 1000) = 1
+S: (56 0 0 0)
+S: (56 0 0 1)
+S: (56 0 1 0)
+S: (56 0 1 1)
+S: (56 1 0 0)
+S: (56 1 0 1)
+S: (56 1 1 0)
+S: (56 1 1 1)
+// action: UP, new pos: (48), cell type: _
+T: (56 k t s), UP, (48 k t s) = 1
+R: (56 k t s), UP, (48 k t s), 0) = 1
+// action: RIGHT, new pos: (57), cell type: E
+T: (56 k t s), RIGHT, (57 k t s) = 1
+R: (56 k t 0), RIGHT, (57 k t 0), -10) = 0.7
+R: (56 k t 0), RIGHT, (57 k t 0), -1000) = 0.3
+R: (56 k t 1), RIGHT, (57 k t 1), 0) = 1
+S: (57 0 0 0)
+S: (57 0 0 1)
+S: (57 0 1 0)
+S: (57 0 1 1)
+S: (57 1 0 0)
+S: (57 1 0 1)
+S: (57 1 1 0)
+S: (57 1 1 1)
+// action: UP, new pos: (49), cell type: #
+T: (57 k t s), UP, (63 k t s) = 1
+R: (57 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (57 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (56), cell type: _
+T: (57 k t s), LEFT, (56 k t s) = 1
+R: (57 k t s), LEFT, (56 k t s), 0) = 1
+// action: RIGHT, new pos: (58), cell type: _
+T: (57 k t s), RIGHT, (58 k t s) = 1
+R: (57 k t s), RIGHT, (58 k t s), 0) = 1
+S: (58 0 0 0)
+S: (58 0 0 1)
+S: (58 0 1 0)
+S: (58 0 1 1)
+S: (58 1 0 0)
+S: (58 1 0 1)
+S: (58 1 1 0)
+S: (58 1 1 1)
+// action: UP, new pos: (50), cell type: #
+T: (58 k t s), UP, (63 k t s) = 1
+R: (58 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (58 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (57), cell type: E
+T: (58 k t s), LEFT, (57 k t s) = 1
+R: (58 k t 0), LEFT, (57 k t 0), -10) = 0.7
+R: (58 k t 0), LEFT, (57 k t 0), -1000) = 0.3
+R: (58 k t 1), LEFT, (57 k t 1), 0) = 1
+// action: RIGHT, new pos: (59), cell type: _
+T: (58 k t s), RIGHT, (59 k t s) = 1
+R: (58 k t s), RIGHT, (59 k t s), 0) = 1
+S: (59 0 0 0)
+S: (59 0 0 1)
+S: (59 0 1 0)
+S: (59 0 1 1)
+S: (59 1 0 0)
+S: (59 1 0 1)
+S: (59 1 1 0)
+S: (59 1 1 1)
+// action: UP, new pos: (51), cell type: E
+T: (59 k t s), UP, (51 k t s) = 1
+R: (59 k t 0), UP, (51 k t 0), -10) = 0.7
+R: (59 k t 0), UP, (51 k t 0), -1000) = 0.3
+R: (59 k t 1), UP, (51 k t 1), 0) = 1
+// action: LEFT, new pos: (58), cell type: _
+T: (59 k t s), LEFT, (58 k t s) = 1
+R: (59 k t s), LEFT, (58 k t s), 0) = 1
+// action: RIGHT, new pos: (60), cell type: _
+T: (59 k t s), RIGHT, (60 k t s) = 1
+R: (59 k t s), RIGHT, (60 k t s), 0) = 1
+S: (60 0 0 0)
+S: (60 0 0 1)
+S: (60 0 1 0)
+S: (60 0 1 1)
+S: (60 1 0 0)
+S: (60 1 0 1)
+S: (60 1 1 0)
+S: (60 1 1 1)
+// action: UP, new pos: (52), cell type: #
+T: (60 k t s), UP, (63 k t s) = 1
+R: (60 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (60 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (59), cell type: _
+T: (60 k t s), LEFT, (59 k t s) = 1
+R: (60 k t s), LEFT, (59 k t s), 0) = 1
+// action: RIGHT, new pos: (61), cell type: _
+T: (60 k t s), RIGHT, (61 k t s) = 1
+R: (60 k t s), RIGHT, (61 k t s), 0) = 1
+S: (61 0 0 0)
+S: (61 0 0 1)
+S: (61 0 1 0)
+S: (61 0 1 1)
+S: (61 1 0 0)
+S: (61 1 0 1)
+S: (61 1 1 0)
+S: (61 1 1 1)
+// action: UP, new pos: (53), cell type: _
+T: (61 k t s), UP, (53 k t s) = 1
+R: (61 k t s), UP, (53 k t s), 0) = 1
+// action: LEFT, new pos: (60), cell type: _
+T: (61 k t s), LEFT, (60 k t s) = 1
+R: (61 k t s), LEFT, (60 k t s), 0) = 1
+// action: RIGHT, new pos: (62), cell type: _
+T: (61 k t s), RIGHT, (62 k t s) = 1
+R: (61 k t s), RIGHT, (62 k t s), 0) = 1
+S: (62 0 0 0)
+S: (62 0 0 1)
+S: (62 0 1 0)
+S: (62 0 1 1)
+S: (62 1 0 0)
+S: (62 1 0 1)
+S: (62 1 1 0)
+S: (62 1 1 1)
+// action: UP, new pos: (54), cell type: #
+T: (62 k t s), UP, (63 k t s) = 1
+R: (62 k 0 s), UP, (63 k 0 s), -5) = 1
+R: (62 k 1 s), UP, (63 k 1 s), 1000) = 1
+// action: LEFT, new pos: (61), cell type: _
+T: (62 k t s), LEFT, (61 k t s) = 1
+R: (62 k t s), LEFT, (61 k t s), 0) = 1
+// action: RIGHT, new pos: (63), cell type: o
+T: (62 k t s), RIGHT, (63 k t s) = 1
+R: (62 k 0 s), RIGHT, (63 k 0 s), -5) = 1
+R: (62 k 1 s), RIGHT, (63 k 1 s), 1000) = 1
+S: (63 0 0 0)
+S: (63 0 0 1)
+S: (63 0 1 0)
+S: (63 0 1 1)
+S: (63 1 0 0)
+S: (63 1 0 1)
+S: (63 1 1 0)
+S: (63 1 1 1)
+// action: UP, new pos: (55), cell type: _
+T: (63 k t s), UP, (55 k t s) = 1
+R: (63 k t s), UP, (55 k t s), 0) = 1
+// action: LEFT, new pos: (62), cell type: _
+T: (63 k t s), LEFT, (62 k t s) = 1
+R: (63 k t s), LEFT, (62 k t s), 0) = 1
