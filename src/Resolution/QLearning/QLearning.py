@@ -11,50 +11,72 @@ from Configuration.results import *
 from Resolution.QLearning.DistributedRandomNumberGenerator import DRNG
 
 class QLearning():
+    """
+    Class of the QLearning algorithm, it returns a way through the maze to victory
+    """
     def __init__(self, filename, savefile, generate, maze,
                  alpha=0.9, gamma=0.2, nbMaxGames=4000, nbMaxMoves=200):
-        self.filename = filename
-        self.savefile = savefile
-        self.maze = maze
+        self.filename = filename                        # the name of the maze (path to load)
+        self.savefile = savefile                        # the name to save
+        self.maze = maze                                # the maze
+
+        # Agent start at (0,0)
         x, y = self.maze.start_position
         self.agent = Agent(x, y)
 
+        # generate indicate if we want to learn a new Agent for the maze or use a Agent that exists
         if(generate):
             self.qtable = self.initialize_QTable()
             self.save_Q()
         else:
             self.qtable = self.load_Q()
 
-        self.alpha = alpha
-        self.gamma = gamma
-        self.nbMaxMoves = nbMaxMoves
-        self.nbMaxGames = nbMaxGames
+        # the parameters of the algorithm
+        self.alpha = alpha                  # alpha is The learning rate
+        self.gamma = gamma                  # gamma is the discount factor
+        self.nbMaxMoves = nbMaxMoves        # nbMaxMoves is the number max of moves that the Agent can do per game
+        self.nbMaxGames = nbMaxGames        # nbMaxGames is the number of games that the Agent will play in the maze
 
     def learning(self):
+        """
+        The function that make the Agent learn
+        """
         nb_games = 0
+        # The Agent will move in the maze for nbMaxGames games
         while(nb_games < self.nbMaxGames):
             print("Game "+str(nb_games)+" of "+str(self.nbMaxGames))
             nb_moves = 0
+            # limit of moves in the maze
             while(nb_moves < self.nbMaxMoves):
+                # position of the agent
                 x, y = self.agent.x, self.agent.y
+                # the stats as hasKey, hasSword and hasTreasure
                 k,s,t = self.agent.get_agent_stats()
+
+                # the agent select a cell to move
                 goto, direction = self.get_next_move_softmax(x, y, k, s, t, self.get_t(nb_moves))
 
                 goto_x, goto_y = goto
 
+                # get the consequence of the new cell the Agent came to
                 result = self.maze.get_consequence_move(self.agent, goto_x, goto_y)
 
                 next_x, next_y = goto_x, goto_y
+                # if PLATFORM or PORTAL then the Agent is moved to another cell
                 while(result == PLATFORM_MOVE or result == PORTAL_MOVE):
                     next_x, next_y = self.get_next_position(result, next_x, next_y)
                     result = self.maze.get_consequence_move(self.agent, next_x, next_y)
 
+                # get the final position of the Agent
                 next_x, next_y = self.get_next_position(result, next_x, next_y)
 
+                # get the reward
                 reward = self.get_reward(result)
 
+                # update the qvalue (a high qvalue means that the Agent should go to this cell)
                 self.update_qvalue(x, y, k, s, t, direction, next_x, next_y, reward)
 
+                # process the consequence of the cell
                 end_game = self.process_consequence(result, next_x, next_y)
 
                 if(end_game):
@@ -66,6 +88,9 @@ class QLearning():
             nb_games += 1
 
     def show_policy(self):
+        """
+        Function that shows how the agent moves in the maze to solve it
+        """
         alphabet = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
         end_game = False
         states = list()

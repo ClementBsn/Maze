@@ -1,5 +1,68 @@
-To play the game launch src/MainPlay.py
+Maze
 
-To start the QLearning launch src/MainQLearning.py
+##### Introduction:
 
-To start the value iteration and policy iteration launch MainPolicy.py
+  Maze is a project that I made with a classmate during my Master Degree.
+This project consist of creating a simple game where an Adventurer is placed in a Maze.
+His goal is to move in this Maze to find the treasure and find his way back to leave the Maze.
+
+##### Description of the Maze:
+
+  A Maze is a matrix where each cell represents a room of the maze.
+They are different type of room in the Maze that will have consequences on the Adventurer.
+
+- Cracks : a room that kills the Adventurer and make him loose the game
+- Empty Cell: a room that has no consequence
+- Ennemy : if the Adventurer has the magical sword, he will defeat this ennemy, if not,
+          he has a p_ennemy probability to survive the fight and move to another room,
+          and a probability of 1-p_ennemy to die and loose the game.
+- Key : if the Adventurer go in this room, he will earn the key to open the treasure,
+      he must come to this room during the game.
+- Platform : a platform is a room that will push the Adventurer to a room next to it randomly
+- Portal : a portal will teleport the Adventurer on a random room of the maze
+- Start : the starting room on the right-down corner
+- Sword : the player will earn the sword if he come to this room
+- Totem : the totem will allows the Adventurer to die one time (this room is not playable yet)
+- Trap : this room is a trap, it will have p_die probability to kill the Adventurer, if not,
+        it has a probability of p_restart to make the Adventurer go to the start room
+- Treasure : if the Adventurer has the key, then he earns the treasure, if not, nothing happen
+            the treasure is always at the top-left corner
+- Wall : if the adventurer goes to a wall, he will go back to the start room
+
+You can find the implementation of the Maze and its rooms in src/Maze/
+
+To play the Maze, you can call the MainPlay.py code.
+
+##### AI to solve the Maze
+
+  This project also consisted on creating an AI that will find a safe way to win the Maze.
+You can find three different algorithm for this task.
+
+I implemented the QLearning algorithm (src/Resolution/QLearning). It is an algorithm that
+find a way to win the maze thanks to reinforcement learning.
+
+An Agent will be playing a lot of games in the same Maze. Each time it will learn how to move
+into the selected Maze to find the key, open the treasure and go back to the start position.
+
+For this, each move from a cell to another is an action. After an action is done, the Agent
+will update a qvalue of this action in function of the consequences of the room he moved to.
+For example, if he went to a Crack, he will put a lower qvalue to this action. But if he finds
+the key or the sword, he will put a higher qvalue to this action.
+
+After several games, the Agent will no longer fell into traps and will know the path to the treasure.
+The qvalue of an action depends also of the qvalue of the next actions.
+
+There are two parameters to this Algorithm, the learning rate alpha and the discount factor gamma.
+
+The learning rate alpha is a value (0<=alpha<=1) that indicates to what extent newly acquired information overrides old information.
+The discount factor gamma is a value (0<=gamma<=1) determines the importance of future rewards.
+
+This way of learning shows us that the Agent will not take any risk to accomplish the Maze.
+In fact, if the Maze has not a safe way to reach the treasure, the Agent will not find a policy.
+For example, no sword on the maze, and ennemy rooms all around the treasure. The Agent will have a risk
+to die, and it will be to much important so it will not goes to the treasure.
+
+If you want to learn a policy thanks to this algorithm, use the MainQLearning.py code.
+
+Two other algorithm to determine a policy were implemented by my classmate.
+Value Iteration Algorithm and Policy Iteration Algorithm.

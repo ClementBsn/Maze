@@ -1,3 +1,5 @@
+# List of all the possible effects of the cells
+
 CONTINUE = 0
 
 DIE = 1

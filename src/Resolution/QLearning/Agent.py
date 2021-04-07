@@ -1,6 +1,9 @@
 from Game.Player import Player
 
 class Agent(Player):
+    """
+    Class of an agent that will learn with reinforcement learning how to win the maze
+    """
 
     def __init__(self, x, y):
         Player.__init__(self, x, y)

@@ -1,3 +1,5 @@
+# Names of all the different cells of the maze
+
 START = "starting_position"
 
 EMPTY = "empty_cell"

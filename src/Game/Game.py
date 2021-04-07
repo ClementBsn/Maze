@@ -26,10 +26,12 @@ class Game():
 		print("Welcome to the Maze\n\nthe moves are:\nz = UP\nq = LEFT\ns = DOWN\nd = RIGHT\n\n")
 		next_x = None
 		next_y = None
+
 		# boolean to know when the game ends
 		continue_game = True
+
 		print(self.maze.print_maze(self.player.x, self.player.y))
-			
+
 		### if a policy is selected, show the action
 		if (policy):
 			temp_c = str(self.player.x * self.maze.columns + self.player.y)
