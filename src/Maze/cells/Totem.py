@@ -1,7 +1,7 @@
 from Configuration.results import CONTINUE, GAIN_TOTEM
 from Maze.cells.Cell import Cell
 
-class Sword(Cell):
+class Totem(Cell):
     """
     Description of a cell where there is a magic sword
     If the player go into this cell, he collects the magic sword
